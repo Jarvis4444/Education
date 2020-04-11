@@ -1,0 +1,64 @@
+/*
+* @Paul-David Jarvis, S5115232
+* Task 8
+* Week 20
+* Upload 4 Task 4
+* 22/11/18
+* A external CSS style sheet that links to "Task7HTMLSheet".
+*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> CSS Style Sheet </title>
+<style>
+body {
+	background-color: Indigo;
+	font-family: comic-sans;
+}
+
+h1 {
+	font-size: 45px;
+	color: white;
+	text-align: center
+
+}
+
+ul.list {list-style-type: square;} /* I */
+
+div h1{ /* II */
+    background-color: Violet ;
+	border: 5px solid black;
+    background-color: grey;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+
+.cities { /* III */
+    background-color: GhostWhite;
+	border-style: solid;
+	border-color: pink;
+} 
+
+#Bournemouth {  /* IV */
+    background-color: Navy;
+} 
+
+p::first-line { /* VI */
+    color: purple;
+    font-variant: small-caps;
+}
+
+p{
+	border-style: dotted;
+	border-color: pink;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 25px;
+	font-weight: bold;
+}
+</head>
+</style>
+</html>
