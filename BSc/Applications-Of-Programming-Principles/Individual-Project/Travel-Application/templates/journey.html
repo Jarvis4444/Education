@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <body>
+	{% extends "layout.html" %}
+	{% block content %}
+   <div class="journey">
+	 <form action = "http://localhost:5000/check">
+		<p>Enter your starting location</p>
+		<p><input type = "text" name = "Start" value = "{{g.start}}"></p>
+		
+		<p>Enter your end destination</p> 
+		<select name="End" value = "{{g.end}}">
+		<option value="Pimlico Underground Station">Pimlico Underground Station</option>
+		<option value="Harrow & Wealdstone Underground Station">Harrow & Wealdstone Underground Station</option>
+		<option value="Marylebone Underground Station">Marylebone Underground Station</option>
+		<option value="Kilburn Park Underground Station">Kilburn Park Underground Station</option>
+		<option value="Waterloo Underground Station">Waterloo Underground Station</option>
+		<option value="Notting Hill Gate Underground Station">Notting Hill Gate Underground Station</option>
+		<option value="Heathrow Terminals 2 & 3 Underground Station">Heathrow Terminals 2 & 3 Underground Station</option>
+		<option value="Chigwell Underground Station">Chigwell Underground Station</option>
+		<option value="Chalfont & Latimer Underground Station">Chalfont & Latimer Underground Station</option>
+		<option value="Monument Underground Station">Monument Underground Station</option>
+		<option value="East Ham Underground Station">East Ham Underground Station</option>
+		<option value="Blackfriars Underground Station">Blackfriars Underground Station</option>
+		<option value="Mile End Underground Station">Mile End Underground Station</option>
+		<option value="Kilburn Underground Station">Kilburn Underground Station</option>
+		<option value="Tower Hill Underground Station">Tower Hill Underground Station</option>
+		<option value="Oakwood Underground Station">Oakwood Underground Station</option>
+		<option value="South Ealing Underground Station">South Ealing Underground Station</option>
+		<option value="Westminster Underground Station">Westminster Underground Station</option>
+		<option value="Moor Park Underground Station">Moor Park Underground Station</option>
+		<option value="South Harrow Underground Station">South Harrow Underground Station</option>
+		<option value="Lancaster Gate Underground Station">Lancaster Gate Underground Station</option>
+		<option value="Pinner Underground Station">Pinner Underground Station</option>
+		<option value="East Acton Underground Station">East Acton Underground Station</option>
+		<option value="Woodford Underground Station">Woodford Underground Station</option>
+		<option value="Redbridge Underground Station">Redbridge Underground Station</option>
+		<option value="East Finchley Underground Station">East Finchley Underground Station</option>
+		<option value="Tooting Bec Underground Station">Tooting Bec Underground Station</option>
+		<option value="Colindale Underground Station">Colindale Underground Station</option>
+		<option value="Totteridge & Whetstone Underground Station">Totteridge & Whetstone Underground Station</option>
+		<option value="Borough Underground Station">Borough Underground Station</option>
+		<option value="Queen's Park Underground Station">Queen's Park Underground Station</option>
+		<option value="Maida Vale Underground Station">Maida Vale Underground Station</option>
+		<option value="West Hampstead Underground Station">West Hampstead Underground Station</option>
+		<option value="Hanger Lane Underground Station">Hanger Lane Underground Station</option>
+		<option value="Holborn Underground Station">Holborn Underground Station</option>
+		<option value="Cannon Street Underground Statio">Cannon Street Underground Statio</option>
+		<option value="Canary Wharf Underground Station">Canary Wharf Underground Station</option>
+		<option value="Parsons Green Underground Station">Parsons Green Underground Station</option>
+		<option value="Northfields Underground Station">Northfields Underground Station</option>
+		<option value="Holloway Road Underground Station">Holloway Road Underground Station</option>
+		<option value="Farringdon Underground Station">Farringdon Underground Station</option>
+		<option value="Southwark Underground Station">Southwark Underground Station</option>
+		<option value="Aldgate East Underground Station">Aldgate East Underground Station</option>
+		<option value="Shepherd's Bush Market Underground Station">Shepherd's Bush Market Underground Station</option>
+		<option value="North Acton Underground Station">North Acton Underground Station</option>
+		<option value="Arsenal Underground Station">Arsenal Underground Station</option>
+		<option value="Westbourne Park Underground Station">Westbourne Park Underground Station</option>
+		<option value="Ravenscourt Park Underground Station">Ravenscourt Park Underground Station</option>
+		<option value="Upney Underground Station">Upney Underground Station</option>
+		<option value="Whitechapel Underground Station">Whitechapel Underground Station</option>
+		<option value="Old Street Underground Station">Old Street Underground Station</option>
+		<option value="Angel Underground Station">Angel Underground Station</option>
+		<option value="Brent Cross Underground Station">Brent Cross Underground Station</option>
+		<option value="Belsize Park Underground Station">Belsize Park Underground Station</option>
+		<option value="Willesden Junction Underground Station">Willesden Junction Underground Station</option>
+		<option value="Elephant & Castle Underground Station">Elephant & Castle Underground Station</option>
+		<option value="Stonebridge Park Underground Station">Stonebridge Park Underground Station</option>
+		<option value="Ruislip Manor Underground Station">Ruislip Manor Underground Station</option>
+		<option value="Hornchurch Underground Station">Hornchurch Underground Station</option>
+		<option value="Kew Gardens Underground Station">Kew Gardens Underground Station</option>
+		<option value="Alperton Underground Station">Alperton Underground Station</option>
+		<option value="Northwood Underground Station">Northwood Underground Station</option>
+		<option value="Putney Bridge Underground Station">Putney Bridge Underground Station</option>
+		<option value="Mansion House Underground Station">Mansion House Underground Station</option>
+		<option value="St. James's Park Underground Station">St. James's Park Underground Station</option>
+		<option value="Southgate Underground Station">Southgate Underground Station</option>
+		<option value="Oval Underground Station">Oval Underground Station</option>
+		<option value="Charing Cross Underground Station">Charing Cross Underground Station</option>
+		<option value="Mill Hill East Underground Station">Mill Hill East Underground Station</option>
+		<option value="Woodside Park Underground Station">Woodside Park Underground Station</option>
+		<option value="Balham Underground Station">Balham Underground Station</option>
+		<option value="Burnt Oak Underground Station">Burnt Oak Underground Station</option>
+		<option value="Seven Sisters Underground Station">Seven Sisters Underground Station</option>
+		<option value="Edgware Road (Bakerloo) Underground Station">Edgware Road (Bakerloo) Underground Station</option>
+		<option value="Heathrow Terminal 4 Underground Station">Heathrow Terminal 4 Underground Station</option>
+		<option value="Stamford Brook Underground Station">Stamford Brook Underground Station</option>
+		<option value="Rickmansworth Underground Station">Rickmansworth Underground Station</option>
+		<option value="Ickenham Underground Station">Ickenham Underground Station</option>
+		<option value="Holland Park Underground Station">Holland Park Underground Station</option>
+		<option value="Fairlop Underground Station">Fairlop Underground Station</option>
+		<option value="South Ruislip Underground Station">South Ruislip Underground Station</option>
+		<option value="Park Royal Underground Station">Park Royal Underground Station</option>
+		<option value="Kingsbury Underground Station">Kingsbury Underground Station</option>
+		<option value="Hyde Park Corner Underground Station">Hyde Park Corner Underground Station</option>
+		<option value="Gunnersbury Underground Station">Gunnersbury Underground Station</option>
+		<option value="Sudbury Town Underground Station">Sudbury Town Underground Station</option>
+		<option value="Chorleywood Underground Station">Chorleywood Underground Station</option>
+		<option value="Stepney Green Underground Station">Stepney Green Underground Station</option>
+		<option value="West Harrow Underground Station">West Harrow Underground Station</option>
+		<option value="Plaistow Underground Station">Plaistow Underground Station</option>
+		<option value="Fulham Broadway Underground Station">Fulham Broadway Underground Station</option>
+		<option value="Grange Hill Underground Station">Grange Hill Underground Station</option>
+		<option value="Hounslow Central Underground Station">Hounslow Central Underground Station</option>
+		<option value="High Street Kensington Underground Station">High Street Kensington Underground Station</option>
+		<option value="Neasden Underground Station">Neasden Underground Station</option>
+		<option value="Northwood Hills Underground Station">Northwood Hills Underground Station</option>
+		<option value="Boston Manor Underground Station">Boston Manor Underground Station</option>
+		<option value="Hounslow East Underground Station">Hounslow East Underground Station</option>
+		<option value="Northolt Underground Station">Northolt Underground Station</option>
+		<option value="East Putney Underground Station">East Putney Underground Station</option>
+		<option value="Roding Valley Underground Station">Roding Valley Underground Station</option>
+		<option value="Wembley Central Underground Station">Wembley Central Underground Station</option>
+		<option value="Croxley Underground Station">Croxley Underground Station</option>
+		<option value="Chesham Underground Station">Chesham Underground Station</option>
+		<option value="Chiswick Park Underground Station">Chiswick Park Underground Station</option>
+		</select>
+				  
+		<p>Enter the date (YYYYMMDD)</p>
+		<p><input type = "number" name = "Date" value = "{{g.date}}"></p>
+		<p><input type = "submit" value = "Enter"/></p>
+				  
+	{% if msg_start %}
+	<p>Starting Location: {{msg_start}}</p>
+	{% endif %}
+	
+	{% if msg_start %}
+	<p>Final Location: {{msg_end}}</p>
+	{% endif %}
+	
+	{% if msg_start %}
+	<p>Date of journey: {{msg_date}}</p>
+	{% endif %}
+	
+	{% if msg_journey %}
+		{% for leg in msg_journey %}
+			<p> {{ leg }} </p>
+		{% endfor %}
+	{% endif %}
+	
+	</form>
+   </div>
+   
+   {% endblock %}
+  </body>
+</html>

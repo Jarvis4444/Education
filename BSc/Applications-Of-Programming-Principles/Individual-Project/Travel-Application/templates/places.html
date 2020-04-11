@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Place Search</title>
+</head>
+<body>
+	{% extends "layout.html" %}
+	{% block content %}
+	<form action = "http://localhost:5000/placecheck">
+		<p>Please enter a query to search</p>
+		<p><input type = "text" name = "query" value = "{{g.result}}"/></p>
+		<p><input type = "submit" value = "Enter"/></p>
+		
+		{% if location1 %}
+		<p>
+		<span class="title">Name: {{ location1.name }}</span>
+		<br>Address: {{ location1.formatted_address }}
+        <br>Rating: {{ location1.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location2 %}
+		<p>
+		<span class="title">Name: {{ location2.name }}</span>
+		<br>Address: {{ location2.formatted_address }}
+        <br>Rating: {{ location2.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location3 %}
+		<p>
+		<span class="title">Name: {{ location3.name }}</span>
+		<br>Address: {{ location3.formatted_address }}
+        <br>Rating: {{ location3.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location4 %}
+		<p>
+		<span class="title">Name: {{ location4.name }}</span>
+		<br>Address: {{ location4.formatted_address }}
+        <br>Rating: {{ location4.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location5 %}
+		<p>
+		<span class="title">Name: {{ location5.name }}</span>
+		<br>Address: {{ location5.formatted_address }}
+        <br>Rating: {{ location5.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location6 %}
+		<p>
+		<span class="title">Name: {{ location6.name }}</span>
+		<br>Address: {{ location6.formatted_address }}
+        <br>Rating: {{ location6.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location7 %}
+		<p>
+		<span class="title">Name: {{ location7.name }}</span>
+		<br>Address: {{ location7.formatted_address }}
+        <br>Rating: {{ location7.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location8 %}
+		<p>
+		<span class="title">Name: {{ location8.name }}</span>
+		<br>Address: {{ location8.formatted_address }}
+        <br>Rating: {{ location8.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location9 %}
+		<p>
+		<span class="title">Name: {{ location9.name }}</span>
+		<br>Address: {{ location9.formatted_address }}
+        <br>Rating: {{ location9.rating }}
+        </p>
+		{% endif %}
+		
+		{% if location10 %}
+		<p>
+		<span class="title">Name: {{ location10.name }}</span>
+		<br>Address: {{ location10.formatted_address }}
+        <br>Rating: {{ location10.rating }}
+        </p>
+		{% endif %}
+		
+      </form>
+	  {% endblock %}
+</body>
+</html>

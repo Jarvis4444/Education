@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    {% extends "layout.html" %}
+	{% block content %}
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    7 Day Weather Forecast
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-offset-4 is-4">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <div class="content">	
+									<p>
+										<img src="http://openweathermap.org/img/w/{{ weather1.icon }}.png" alt="Image">								
+                                        <br>Day Temperature: {{ weather1.temperature_day }}° F
+										<br>Night Temperature: {{ weather1.temperature_night }}° F
+										<br>Minimum Temperature: {{ weather1.temperature_min }}° F
+										<br>Maximum Temperature: {{ weather1.temperature_max }}° F
+                                        <br>Description: {{ weather1.description }}
+                                    </p>
+									<p>
+										<img src="http://openweathermap.org/img/w/{{ weather2.icon }}.png" alt="Image">								
+                                        <br>Day Temperature: {{ weather2.temperature_day }}° F
+										<br>Night Temperature: {{ weather2.temperature_night }}° F
+										<br>Minimum Temperature: {{ weather2.temperature_min }}° F
+										<br>Maximum Temperature: {{ weather2.temperature_max }}° F
+                                        <br>Description: {{ weather2.description }}
+                                    </p>
+									<p>
+										<img src="http://openweathermap.org/img/w/{{ weather3.icon }}.png" alt="Image">								
+                                        <br>Day Temperature: {{ weather3.temperature_day }}° F
+										<br>Night Temperature: {{ weather3.temperature_night }}° F
+										<br>Minimum Temperature: {{ weather3.temperature_min }}° F
+										<br>Maximum Temperature: {{ weather3.temperature_max }}° F
+                                        <br>Description: {{ weather3.description }}
+                                    </p>
+									<p>
+										<img src="http://openweathermap.org/img/w/{{ weather4.icon }}.png" alt="Image">								
+                                        <br>Day Temperature: {{ weather4.temperature_day }}° F
+										<br>Night Temperature: {{ weather4.temperature_night }}° F
+										<br>Minimum Temperature: {{ weather4.temperature_min }}° F
+										<br>Maximum Temperature: {{ weather4.temperature_max }}° F
+                                        <br>Description: {{ weather4.description }}
+                                    </p>
+									<p>
+										<img src="http://openweathermap.org/img/w/{{ weather5.icon }}.png" alt="Image">								
+                                        <br>Day Temperature: {{ weather5.temperature_day }}° F
+										<br>Night Temperature: {{ weather5.temperature_night }}° F
+										<br>Minimum Temperature: {{ weather5.temperature_min }}° F
+										<br>Maximum Temperature: {{ weather5.temperature_max }}° F
+                                        <br>Description: {{ weather5.description }}
+                                    </p>
+									<p>
+										<img src="http://openweathermap.org/img/w/{{ weather6.icon }}.png" alt="Image">								
+                                        <br>Day Temperature: {{ weather6.temperature_day }}° F
+										<br>Night Temperature: {{ weather6.temperature_night }}° F
+										<br>Minimum Temperature: {{ weather6.temperature_min }}° F
+										<br>Maximum Temperature: {{ weather6.temperature_max }}° F
+                                        <br>Description: {{ weather6.description }}
+                                    </p>
+									<p>
+										<img src="http://openweathermap.org/img/w/{{ weather7.icon }}.png" alt="Image">								
+                                        <br>Day Temperature: {{ weather7.temperature_day }}° F
+										<br>Night Temperature: {{ weather7.temperature_night }}° F
+										<br>Minimum Temperature: {{ weather7.temperature_min }}° F
+										<br>Maximum Temperature: {{ weather7.temperature_max }}° F
+                                        <br>Description: {{ weather7.description }}
+                                    </p>									
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	{% endblock %}
+</body>
+
+</html>

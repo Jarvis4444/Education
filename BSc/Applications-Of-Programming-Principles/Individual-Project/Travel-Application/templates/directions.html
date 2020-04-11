@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <body>
+	{% extends "layout.html" %}
+	{% block content %}
+   <div class="directions">
+	 <form action = "http://localhost:5000/checkdirections">
+		<p>Enter your starting location</p>
+		<p><input type = "text" name = "origin" value = "{{g.origin}}"></p>
+		
+		<p>Enter your destination</p>
+		<p><input type = "text" name = "destination" value = "{{g.destination}}"></p>
+		
+		<p>Enter your mode</p> 
+		<select name="mode" value = "{{g.mode}}">
+		<option value="driving">Driving</option>
+		<option value="walking">Walking</option>
+		<option value="bicycling">Bicycling</option>
+		<option value="transit">Public Transit</option>
+		</select>
+		<p><input type = "submit" value = "Enter"/></p>
+		
+	{% if msg_origin %}
+	<p>Starting Location: {{msg_origin}}</p>
+	{% endif %}
+	
+	{% if msg_destination %}
+	<p>Final Destination: {{msg_destination}}</p>
+	{% endif %}
+	
+	{% if msg_mode %}
+	<p>Mode of Transport: {{msg_mode}}</p>
+	{% endif %}
+	
+
+	<p> {{ resutlts_formatted|safe }} </p>
+
+	</form>
+   </div>
+   
+   {% endblock %}
+  </body>
+</html>

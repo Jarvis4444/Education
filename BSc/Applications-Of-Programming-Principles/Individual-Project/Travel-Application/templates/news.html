@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News</title>
+</head>
+
+<body>
+    {% extends "layout.html" %}
+	{% block content %}
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Top Headlines In The UK
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-offset-4 is-4">
+                    <div class="box">
+                        <article class="media">       
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <span class="title">Title: {{ news.title }}</span>
+										<br>Source: {{ news.source }}
+                                        <br>Author: {{ news.author }}
+										<br>Description: {{ news.description }}
+										<br>Published: {{ news.published }}
+                                        <br><a href="{{ news.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news2.title }}</span>
+										<br>Source: {{ news2.source }}
+                                        <br>Author: {{ news2.author }}
+										<br>Description: {{ news2.description }}
+										<br>Published: {{ news2.published }}
+                                        <br><a href="{{ news2.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news3.title }}</span>
+										<br>Source: {{ news3.source }}
+                                        <br>Author: {{ news3.author }}
+										<br>Description: {{ news3.description }}
+										<br>Published: {{ news3.published }}
+                                        <br><a href="{{ news3.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news4.title }}</span>
+										<br>Source: {{ news4.source }}
+                                        <br>Author: {{ news4.author }}
+										<br>Description: {{ news4.description }}
+										<br>Published: {{ news4.published }}
+                                        <br><a href="{{ news4.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news5.title }}</span>
+										<br>Source: {{ news5.source }}
+                                        <br>Author: {{ news5.author }}
+										<br>Description: {{ news5.description }}
+										<br>Published: {{ news5.published }}
+                                        <br><a href="{{ news5.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news6.title }}</span>
+										<br>Source: {{ news6.source }}
+                                        <br>Author: {{ news6.author }}
+										<br>Description: {{ news6.description }}
+										<br>Published: {{ news6.published }}
+                                        <br><a href="{{ news6.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news7.title }}</span>
+										<br>Source: {{ news7.source }}
+                                        <br>Author: {{ news7.author }}
+										<br>Description: {{ news7.description }}
+										<br>Published: {{ news7.published }}
+                                        <br><a href="{{ news7.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news8.title }}</span>
+										<br>Source: {{ news8.source }}
+                                        <br>Author: {{ news8.author }}
+										<br>Description: {{ news8.description }}
+										<br>Published: {{ news8.published }}
+                                        <br><a href="{{ news8.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news9.title }}</span>
+										<br>Source: {{ news9.source }}
+                                        <br>Author: {{ news9.author }}
+										<br>Description: {{ news9.description }}
+										<br>Published: {{ news9.published }}
+                                        <br><a href="{{ news9.url }}">Read More!</a>
+                                    </p>
+									<p>
+                                        <span class="title">Title: {{ news10.title }}</span>
+										<br>Source: {{ news10.source }}
+                                        <br>Author: {{ news10.author }}
+										<br>Description: {{ news10.description }}
+										<br>Published: {{ news10.published }}
+                                        <br><a href="{{ news10.url }}">Read More!</a>
+                                    </p>
+									
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	{% endblock %}
+</body>
+
+</html>
