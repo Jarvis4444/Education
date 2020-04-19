@@ -1,6 +1,5 @@
 # Bournemouth University
-Hi everyone!! this repository is dedicated to my journal through Bournemouth University. You can find all the main pieces of work from my time studying for my Bachelor's degree in computer forensics and cybersecurity!
-I will be adding more files and folders in the future when needed!
+Hi everyone!! this repository is dedicated to my journal through Bournemouth University. 
 
 ##  Academic Degree
 Please Visit [BSC (HONS) FORENSIC COMPUTING AND SECURITY](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc) for all the main pieces of work that I have done for my BSc degree.
