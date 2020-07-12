@@ -1,6 +1,5 @@
 # BSc (Hons) Forensic Computing and Security
-This folder within the "Bournemouth-University" repository contains all the folders for all the individual units and modules
-I have been learning, they contain the main pieces of my assignment work.
+This Folder contains all my work for my BSc degree. I hope that this work won't be only used for nostagic purposes but more to show my skills.
 
 ## First Year
 [Principles of Programming](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Principles-Of-Programming)
