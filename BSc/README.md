@@ -24,4 +24,8 @@ This Folder contains all my work for my BSc degree. I hope that this work won't 
 [Tools & Technologies of Data Science](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Tools-%26-Technologies-of-Data-Science)
 
 ## Final Year
-TBA
+[Advanced Digital Forensics](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Advanced-Digital-Forensics)
+
+[Cybercrime](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Cybercrime)
+
+[Security By Design](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Security-By-Design)
