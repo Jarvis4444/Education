@@ -1,5 +1,5 @@
 # BSc (Hons) Forensic Computing and Security
-This Folder contains all my work for my BSc degree. I hope that this work won't be only used for nostagic purposes but more to show my skills.
+This BSc folder within my Bournemouth-University repository contains all my work for my bachelor's degree.
 
 ## First Year
 [Principles of Programming](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Principles-Of-Programming)
