@@ -29,3 +29,5 @@ This BSc folder within my Bournemouth-University repository contains all my work
 [Cybercrime](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Cybercrime)
 
 [Security By Design](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Security-By-Design)
+
+[Final Year Project](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Final-Year-Project)
