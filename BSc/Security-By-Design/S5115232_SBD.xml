@@ -1,0 +1,1693 @@
+<?xml version="1.0"?>
+<!DOCTYPE cairis_model PUBLIC "-//CAIRIS//DTD MODEL 1.0//EN" "http://cairis.org/dtd/cairis_model.dtd">
+<cairis_model>
+
+
+<tvtypes>
+<vulnerability_type name="Configuration" >
+  <description>A vulnerability resulting from an error in the configuration and administration of a system or component.</description>
+</vulnerability_type>
+<vulnerability_type name="Design" >
+  <description>A vulnerability inherent in the design or specification of hardware or software whereby even a perfect implementation will result in a vulnerability.</description>
+</vulnerability_type>
+<vulnerability_type name="Implementation" >
+  <description>A vulnerability resulting from an error made in implementing software or hardware of a satisfactory design.</description>
+</vulnerability_type>
+<threat_type name="Electronic/DoS and DDoS" >
+  <description>A Denial-of-Service (DoS) attack involves a malicious attempt to disrupt the operation of a computer system or network that is connected to the Internet.  A Distributed Denial-of-Service (DDoS) attack is a more dangerous evolution of a DoS attack because it utilises a network of compromised zombie computers to mount the attack, so there is no identifiable single source.</description>
+</threat_type>
+<threat_type name="Electronic/Hacking" >
+  <description>Hackers want to get into your computer system and use them for their own purposes.  There are many hacking tools available on the internet as well as online communities actively discussing hacking techniques enabling even unskilled hackers to break into unprotected systems.  Hackers have a range of motives; from showing off their technical prowess, to theft of money, credentials or information, to cause damage.</description>
+</threat_type>
+<threat_type name="Electronic/Keystoke logging" >
+  <description>Keystroke loggers work by recording the sequence of key-strokes that a user types in.  The more sophisticated versions use filtering mechanisms to only record highly prized information such as email addresses, passwords and credit card number sequences.</description>
+</threat_type>
+<threat_type name="Electronic/Malware" >
+  <description>Malware is any program or file that is harmful to a computer, the term covers viruses, worms, Trojan horses, and spyware.  Malware is becoming increasingly sophisticated and can be used to compromise computers to install DOS zombie programs or other malicious programs.</description>
+</threat_type>
+<threat_type name="Electronic/Phishing and Spoofing" >
+  <description>Phishing describes a social engineering process designed to trick an organisation's customers into imparting confidential information such as passwords, personal data or banking and financial details.  Most commonly these are criminal attacks but the same techniques could be used by others to get sensitive information.</description>
+</threat_type>
+<threat_type name="Insider/Manipulation" >
+  <description>Sometimes deliberate attempts are made to acquire information or access by manipulating staff by using a range of influencing techniques.  This is sometimes described as social engineering, creating situations in which someone will willingly provide access to information, sites or systems to someone unauthorised to receive it.  Customer facing personnel who have been trained to be helpful and informative can be particularly vulnerable to such attacks.</description>
+</threat_type>
+<threat_type name="Insider/Sabotage" >
+  <description>Saborage is often committed by a former employee seeking revenge on their employer because of a personal grudge caused by a negative work related event such as dismissal.  Although it is sometimes planned well in advance, it can also be the result of an opportunistic moment.</description>
+</threat_type>
+<threat_type name="Natural" >
+  <description>Environment / Acts of Nature</description>
+</threat_type>
+<threat_type name="Physical" >
+  <description>Physical Security</description>
+</threat_type>
+</tvtypes>
+
+<domainvalues>
+<threat_value name="None" >
+  <description>To be defined</description>
+</threat_value>
+<threat_value name="Low" >
+  <description>To be defined</description>
+</threat_value>
+<threat_value name="Medium" >
+  <description>To be defined</description>
+</threat_value>
+<threat_value name="High" >
+  <description>To be defined</description>
+</threat_value>
+<risk_value name="Negligible" >
+  <description>
+</description>
+</risk_value>
+<risk_value name="Tolerable" >
+  <description>
+</description>
+</risk_value>
+<risk_value name="Undesirable" >
+  <description>
+</description>
+</risk_value>
+<risk_value name="Intolerable" >
+  <description>
+</description>
+</risk_value>
+<countermeasure_value name="None" >
+  <description>To be defined</description>
+</countermeasure_value>
+<countermeasure_value name="Low" >
+  <description>To be defined</description>
+</countermeasure_value>
+<countermeasure_value name="Medium" >
+  <description>To be defined</description>
+</countermeasure_value>
+<countermeasure_value name="High" >
+  <description>To be defined</description>
+</countermeasure_value>
+<severity_value name="Negligible" >
+  <description>
+</description>
+</severity_value>
+<severity_value name="Marginal" >
+  <description>
+</description>
+</severity_value>
+<severity_value name="Critical" >
+  <description>
+</description>
+</severity_value>
+<severity_value name="Catastrophic" >
+  <description>
+</description>
+</severity_value>
+<likelihood_value name="Incredible" >
+  <description>
+</description>
+</likelihood_value>
+<likelihood_value name="Improbable" >
+  <description>
+</description>
+</likelihood_value>
+<likelihood_value name="Remote" >
+  <description>
+</description>
+</likelihood_value>
+<likelihood_value name="Occasional" >
+  <description>
+</description>
+</likelihood_value>
+<likelihood_value name="Probable" >
+  <description>
+</description>
+</likelihood_value>
+<likelihood_value name="Frequent" >
+  <description>
+</description>
+</likelihood_value>
+</domainvalues>
+
+<cairis>
+<project_settings name="New Project" >
+  <background>None</background>
+  <strategic_goals>None</strategic_goals>
+  <rich_picture image="" />
+  <scope>None</scope>
+</project_settings>
+<environment name="Special Care Baby Unit" short_code="SCBU" >
+  <definition>The neonatal care unit for the neonatal child (/children) that the nurses care for.</definition>
+  <asset_values>
+    <none>To be defined</none>
+    <low>To be defined</low>
+    <medium>To be defined</medium>
+    <high>To be defined</high>
+  </asset_values>
+</environment>
+<environment name="Ricks Home" short_code="HOTC" >
+  <definition>The home of the parents and the neonatal child after their release.</definition>
+  <asset_values>
+    <none>To be defined</none>
+    <low>To be defined</low>
+    <medium>To be defined</medium>
+    <high>To be defined</high>
+  </asset_values>
+</environment>
+</cairis>
+
+<riskanalysis>
+<role name="Parent" type="Stakeholder" short_code="Par" >
+  <description>The parents of the neonatal children.</description>
+</role>
+<role name="Nurse (Neonatal)" type="Data Processor" short_code="NN" >
+  <description>The nurses that look after the neonatal children.</description>
+</role>
+<role name="Neonate" type="Data Subject" short_code="Neo" >
+  <description>The children who were born premature or ill.</description>
+</role>
+<role name="Nurse (Home Care)" type="Data Processor" short_code="HCN" >
+  <description>The Home Care Nurse that visits the parent's houses whose children were recently just sent home.</description>
+</role>
+<role name="Consultant" type="Data Processor" short_code="C" >
+  <description>Consultants summarise and monitor general Neonatal progress and the child's care plan for the parents.</description>
+</role>
+<role name="IT Technician" type="Data Processor" short_code="ITTe" >
+  <description>The IT staff at the hospital.</description>
+</role>
+<role name="Emotional Attacker" type="Attacker" short_code="EA" >
+  <description>An attacker who is motivated by emotional means.</description>
+</role>
+<role name="Insider Threat" type="Attacker" short_code="IT" >
+  <description>An attacker who is inside the company or organisation that they're attacking.</description>
+</role>
+<asset name="Electronic Patient Records" short_code="EPR" type="Information" is_critical="0">
+  <description>Patient records on the N3 program.</description>
+  <significance>The EPR was the second interface requirement for N3.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>The EPR contains confidential information regarding the patients medical histroy</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>The EPR contains information regarding a patient's medical history and must be kept up to date and accurate</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>The EPR must be available for nurses, consultants and home cares to write to and retrieve information and parents to retrieve information</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>Parents should only have information on this when requested through the parents N3 application.</rationale>
+  </security_property>
+</asset>
+<asset name="Electronic Prescription System" short_code="EPS" type="Information" is_critical="0">
+  <description>The system that holds all the prescription information for patients on N3</description>
+  <significance>This was one of the interface requirements for N3.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>Prescription and other medical data should be kept secure and confidential</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>This information is used to treat patients and must be kept accurate and complete</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>This system will be used to check what medication patients need and must be available for nurses to check</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="accountability" value="High">
+    <rationale>This system is used for nurses to check what medication needs to be prescribed. It is important that there is accountability if a nurse accidentally commits the wrong prescription information.</rationale>
+  </security_property>
+</asset>
+<asset name="Pictures and Videos of the neonatal children" short_code="PAV" type="Information" is_critical="0">
+  <description>The pictures and videos of the neonatal children</description>
+  <significance>This was one of the main objectives for a successful clinical version of N3.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>These pictures are of children and should only be seen by parents and nurses</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>Parents are having a stressful time and the pictures and videos showing how their children are doing is important to them and the integrity of these requests must be secure.</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>Parents are having a stressful time and these pictures and videos must be available to the parents whenever they want them.</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="accountability" value="High">
+    <rationale>Nurses and other medical roles and especially working with premature or ill children should be accountable incase they make a mistake.</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>These pictures are of children and should only be seen by parents and nurses</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="availability" value="High">
+    <rationale>The parents must be able to access these pictures whenever they want to see their children.</rationale>
+  </security_property>
+</asset>
+<asset name="Consumer N3 Configuration" short_code="CN3C" type="Information" is_critical="0">
+  <description>The configuration given to parents to configure their version of N3.</description>
+  <significance>N3 is the software that parents use to communicate with the SCBU. The configuration file is needed.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>todo</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>todo</rationale>
+  </security_property>
+</asset>
+<asset name="Clinical NeoNateNetwork" short_code="N3" type="Software" is_critical="0">
+  <description>The clinical version of N3 used by SCBU.</description>
+  <significance>Main software designed for clinical use.</significance>
+  <critical_rationale></critical_rationale>
+  <interface name="Electronic Patient Records" type="required" access_right="None" privilege="None" />
+  <interface name="Electronic Prescription System" type="required" access_right="None" privilege="None" />
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>The clinical version of N3 contains confidential information regarding the patients and must be kept private
+</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>The system must be kept up to date and accurate to avoid any unforeseen circumstances </rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>Nurses need to access N3 to help treat their patients so N3 must be available whenever nurses need it.</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>The clinical version of N3 used at the parents home will be used by the home care nurse to provide comments on how the child is doing when safe to leave the hospital </rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="integrity" value="High">
+    <rationale>The data that the home care nurse provides will be used to make sure that the patient can be discharged from the hospital safety so must be accurate.</rationale>
+  </security_property>
+</asset>
+<asset name="Consumer NeoNateNetwork" short_code="ConN3" type="Software" is_critical="0">
+  <description>The software used by the parents of neonatal children.</description>
+  <significance>This was the main goal and what we have been asked to design.</significance>
+  <critical_rationale></critical_rationale>
+  <interface name="Electronic Patient Records" type="required" access_right="None" privilege="None" />
+  <interface name="Electronic Prescription System" type="required" access_right="None" privilege="None" />
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>The consumer version of N3 contains confidential information and must only be accessed by parents and other authorised users</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="availability" value="High">
+    <rationale>The parents used the consumer N3 network to communicate with the clinical team caring for their child. The system must be available so parents can communicate with the them</rationale>
+  </security_property>
+</asset>
+<asset name="Neonatal Nurse Workstation" short_code="NNW" type="Hardware" is_critical="0">
+  <description>The workstations used by the neonatal nurses.</description>
+  <significance>These workstations are used by the nurses to access N3 and all of its features.</significance>
+  <critical_rationale></critical_rationale>
+  <interface name="N3" type="required" access_right="None" privilege="None" />
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>The workstations have access to N3 which stores confidential information such as medical records</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>The nurses use these workstations to access N3 and they must be available for them to use.</rationale>
+  </security_property>
+</asset>
+<asset name="Neonatal Nurses Tablet" short_code="NNNT" type="Hardware" is_critical="0">
+  <description>The tablets used by the nurses</description>
+  <significance>These tablets are used by the nurses to access N3 and all of its features.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>These tablets have access to N3 and confidential information.</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>The tablets must be available for whenever the nurses need them to access N3</rationale>
+  </security_property>
+</asset>
+<asset name="Ricks Smartphone" short_code="RS" type="Hardware" is_critical="0">
+  <description>Rick's Smart device.</description>
+  <significance>The smart device that Rick uses to access the consumer version of N3.</significance>
+  <critical_rationale></critical_rationale>
+  <interface name="N3" type="required" access_right="None" privilege="None" />
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>These phones have access to N3 which stores confidential information about their children.</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="availability" value="High">
+    <rationale>Parents will use their smartphone to access N3 so it must be available for them to be able to access N3 </rationale>
+  </security_property>
+</asset>
+<asset name="Parents" short_code="Par" type="People" is_critical="0">
+  <description>The parents of the neonatal children.</description>
+  <significance>The parents are the 3rd main stakeholder in N3. It was built to help them during a stressful time.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Ricks Home" property="availability" value="High">
+    <rationale>It is vital for parents to be available when they're needed in case the nurses looking after their children need their consent for whatever reason.</rationale>
+  </security_property>
+</asset>
+<asset name="Neonatal Nurse" short_code="NNN" type="People" is_critical="1">
+  <description>The Nurses that work in the SCBU who look after the patients. </description>
+  <significance>The main nurses that look after the neonatal children in the SCBU. They are one of the main stakeholders of N3.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>The nurses have access to confidential information regarding their patients such as their medical records.</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>As nurses, we have a natural trust in them to look after us.</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>The nurse's patients require constant attention and they must be available whenever they're needed</rationale>
+  </security_property>
+</asset>
+<asset name="Neonates" short_code="NN" type="People" is_critical="0">
+  <description>The neonatal children and patients of the SCBU</description>
+  <significance>N3 was created to help families with neonatal children so they're the main stakeholder</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="unobservability" value="High">
+    <rationale>These are children and unable to tell if anything is being performed</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="unobservability" value="High">
+    <rationale>These are children and unable to tell if anything is being performed</rationale>
+  </security_property>
+</asset>
+<asset name="IT Staff" short_code="IT" type="People" is_critical="0">
+  <description>The IT Staff </description>
+  <significance>The IT staff members are those who configure and install the clinical version of N3 for the nurses and set up the pre-configured file for parents</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>The IT staff must be available when they are needed in case any of the nurse's hardware stops working</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="accountability" value="High">
+    <rationale>N3 is the main piece of software that helps parents and clinical staff communicate and IT staff must be accountable if they have messed up when configuring and installing.</rationale>
+  </security_property>
+</asset>
+<asset name=" Home Care Nurse" short_code="HCN" type="People" is_critical="0">
+  <description>The home care nurses that visit the patients shortly after they are safe to leave the SCBU</description>
+  <significance>Home care nurses are one of the roles that N3 will help.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>The home care nurse has access to confidential information</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>The information that the home care nurse collects from her home visit will be used to make sure that the patient is released when they're safe so this information needs to be accurate</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="Medium">
+    <rationale>Home care nurses must be available when they are needed to make a visit</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>	The home care nurse has access to confidential information</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="integrity" value="High">
+    <rationale>The information that the home care nurse collects from her home visit will be used to make sure that the patient is released when they're safe so this information needs to be accurate</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="availability" value="High">
+    <rationale>Home care nurses must be available when they are needed to make a visit</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="accountability" value="High">
+    <rationale>Home care nurses notes are used when deciding if a patient is well enough to go home so they must be accountable if their summary causes a patient to go home when they're not supposed to</rationale>
+  </security_property>
+</asset>
+<asset name="Consulants" short_code="CON" type="People" is_critical="0">
+  <description>Neonatal children's consultants.</description>
+  <significance>The consultants will summarise the patient's treatment plan and will provide comments on their general progress.</significance>
+  <critical_rationale></critical_rationale>
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>The consultants have access to the patient's medical information which must be kept confidential</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>The consultants provide comments and take part in their treatment plan and this data must be accurate and up to date.</rationale>
+  </security_property>
+</asset>
+<asset name="Firebase Cloud Messaging" short_code="FCM" type="System of Systems" is_critical="0">
+  <description>FCM is a messaging infrastructure </description>
+  <significance>Both Clinical and Consumer versions of N3 rely on FCM to communicate with each other.</significance>
+  <critical_rationale></critical_rationale>
+  <interface name="N3" type="required" access_right="None" privilege="None" />
+  <security_property environment="Special Care Baby Unit" property="confidentiality" value="High">
+    <rationale>The data being sent to and from FCM contains confidential information regarding the patient's medical progress and must be kept secure</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="integrity" value="High">
+    <rationale>The data flowing to and from FCM contains important information and the integrity of the information and packets must be kept</rationale>
+  </security_property>
+  <security_property environment="Special Care Baby Unit" property="availability" value="High">
+    <rationale>The clinical version of N3 relies on FCM in order to send and receive messages from parents</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="confidentiality" value="High">
+    <rationale>The data being sent to and from FCM contains confidential information regarding the patient's medical progress and must be kept secure</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="integrity" value="High">
+    <rationale>The data flowing to and from FCM contains important information and the integrity of the information and packets must be kept</rationale>
+  </security_property>
+  <security_property environment="Ricks Home" property="availability" value="High">
+    <rationale>The consumer version of N3 relies on FCM to send messages and receive messages from the clinical team</rationale>
+  </security_property>
+</asset>
+<vulnerability name="Unencrypted Communication" type="Configuration">
+  <description>The nurses and parents send important and confident information to each other through FCM. If FCM were using plain text in their traffic instead of a high-level encryption such as AES-256 then the confidentiality of any information sent through FCM is vulnerable.</description>
+  <vulnerability_environment name="Special Care Baby Unit" severity="Catastrophic">
+    <vulnerable_asset name="Pictures and Videos of the neonatal children" />
+    <vulnerable_asset name="Firebase Cloud Messaging" />
+  </vulnerability_environment>
+  <vulnerability_environment name="Ricks Home" severity="Catastrophic">
+    <vulnerable_asset name="Pictures and Videos of the neonatal children" />
+    <vulnerable_asset name="Firebase Cloud Messaging" />
+  </vulnerability_environment>
+</vulnerability>
+<vulnerability name="Inadequate Datastore Protection" type="Configuration">
+  <description>The staff and parents that use both the clinical and consumer version of the N3 software connects and requests data from the electronic patient records. It must have sufficient protection to keep the confidential data stored within protected.</description>
+  <vulnerability_environment name="Special Care Baby Unit" severity="Catastrophic">
+    <vulnerable_asset name="Electronic Prescription System" />
+  </vulnerability_environment>
+  <vulnerability_environment name="Ricks Home" severity="Catastrophic">
+    <vulnerable_asset name="Electronic Patient Records" />
+  </vulnerability_environment>
+</vulnerability>
+<vulnerability name="Insufficient User Training" type="Implementation">
+  <description>N3 is a brand new system and requires a large amount of training for everyone involved. Insiffuicnet user training can lead nurses like Kate to make mistakes.</description>
+  <vulnerability_environment name="Special Care Baby Unit" severity="Catastrophic">
+    <vulnerable_asset name="Electronic Patient Records" />
+    <vulnerable_asset name="Electronic Prescription System" />
+    <vulnerable_asset name="Clinical NeoNateNetwork" />
+    <vulnerable_asset name="Neonatal Nurse Workstation" />
+    <vulnerable_asset name="Neonatal Nurses Tablet" />
+    <vulnerable_asset name="Neonatal Nurse" />
+  </vulnerability_environment>
+</vulnerability>
+<attacker name="Kate Monroe" image="9RKrQ24cwXHvBN9q2yxlu3fiUrHIRVIE.jpeg">
+  <description>Kate is an employee at the SCBU and has been working there for a year. She's extremely new and eager to make a name for her self. She is not very tech-savvy and prefers things being done the way they were.</description>
+  <attacker_environment name="Special Care Baby Unit">
+    <attacker_role name="Nurse (Neonatal)" />
+    <attacker_role name="Insider Threat" />
+    <motivation name="Accident" />
+    <capability name="Technology" value="Low" />
+    <capability name="Software" value="Low" />
+    <capability name="Knowledge/Education and Training" value="High" />
+    <capability name="Knowledge/Methods" value="High" />
+  </attacker_environment>
+</attacker>
+<attacker name="Marcus Hutchins" image="uMXdtNn4wcigiLNeeZweqP522ZpOiJmM.jpeg">
+  <description>Marcus worked in the IT department in the SCBU for 5 years. Him and his wife recently just had a baby boy but receive the bad news that he is being let go due to insubordination.</description>
+  <attacker_environment name="Special Care Baby Unit">
+    <attacker_role name="IT Technician" />
+    <attacker_role name="Emotional Attacker" />
+    <motivation name="Revenge" />
+    <capability name="Resources/Funding" value="Low" />
+    <capability name="Technology" value="High" />
+    <capability name="Software" value="High" />
+    <capability name="Knowledge/Education and Training" value="High" />
+    <capability name="Knowledge/Methods" value="High" />
+  </attacker_environment>
+</attacker>
+<attacker name="Rick Astley" image="yyHwQpqRO6C9kBemCAOwdCF8aBC1B7d1.jpeg">
+  <description>Rick is the parent of a neonatal child in the SCBU. He is under a large amount of stress and extremely angry at the world with what is happening with his child. He is extremely tech-savvy.</description>
+  <attacker_environment name="Ricks Home">
+    <attacker_role name="Parent" />
+    <attacker_role name="Emotional Attacker" />
+    <motivation name="Revenge" />
+    <capability name="Resources/Funding" value="High" />
+    <capability name="Technology" value="High" />
+    <capability name="Software" value="High" />
+    <capability name="Knowledge/Education and Training" value="High" />
+  </attacker_environment>
+</attacker>
+<threat name="Accidental Data Entry" type="Insider/Sabotage">
+  <method>Kate would use the clinical version of N3 to input medical information into the wrong neonatal patient.</method>
+  <threat_environment name="Special Care Baby Unit" likelihood="Improbable" >
+    <threat_attacker name="Kate Monroe" />
+    <threatened_asset name="Electronic Patient Records" />
+    <threatened_asset name="Electronic Prescription System" />
+    <threatened_asset name="Clinical NeoNateNetwork" />
+    <threatened_property name="integrity" value="High">
+      <rationale>Kate's inexperience with technology would mean that the integrity of the electronic prescription system and patient records are broken and could potentially cause hard to patients.</rationale>
+    </threatened_property>
+  </threat_environment>
+</threat>
+<threat name="Man-In-The-Middle Attack" type="Electronic/Hacking">
+  <method>Rick with his computer knowledge will compromise the FCM service and intercept data that is being sent from and to the families of neonatal children and their care team.</method>
+  <threat_environment name="Ricks Home" likelihood="Remote" >
+    <threat_attacker name="Rick Astley" />
+    <threatened_asset name="Clinical NeoNateNetwork" />
+    <threatened_asset name="Firebase Cloud Messaging" />
+    <threatened_property name="confidentiality" value="High">
+      <rationale>Confidential information is being sent to and from FCM and intercepting these packets break the confidentially of this data.</rationale>
+    </threatened_property>
+    <threatened_property name="integrity" value="High">
+      <rationale>The data is that being sent to and from FCM is important to the families and the staff at SCBU and a MITM attack could mean that Rick could send modified packets rather than the original.</rationale>
+    </threatened_property>
+  </threat_environment>
+</threat>
+<threat name="Inside Theft" type="Physical">
+  <method>Marcus will either send the information out of the SCBU or take it physically on his way out before he is escorted off-site.</method>
+  <threat_environment name="Special Care Baby Unit" likelihood="Improbable" >
+    <threat_attacker name="Marcus Hutchins" />
+    <threatened_asset name="Electronic Patient Records" />
+    <threatened_asset name="Electronic Prescription System" />
+    <threatened_property name="confidentiality" value="High">
+      <rationale>When Marcus steals the information, this would be breaking the confidentiality of the data.</rationale>
+    </threatened_property>
+  </threat_environment>
+</threat>
+<risk name="Information Interception" vulnerability="Unencrypted Communication" threat="Man-In-The-Middle Attack">
+  <misusecase environment="Ricks Home">
+    <narrative>Rick will access the FCM or SCBU network and use a tool such as Wireshark to intercept the requests from the SCBU to FCM and vice versa. </narrative>
+  </misusecase>
+</risk>
+<risk name="Theft of Confidential Data" vulnerability="Inadequate Datastore Protection" threat="Inside Theft">
+  <misusecase environment="Special Care Baby Unit">
+    <narrative>Before Marcus is escorted out of the SCBU he accesses the EPR that is not protected and downloads them to an external drive.</narrative>
+  </misusecase>
+</risk>
+<risk name="Wrong Data Entry" vulnerability="Insufficient User Training" threat="Accidental Data Entry">
+  <misusecase environment="Special Care Baby Unit">
+    <narrative>Kate will add additions and alter the information stored in her patients records but she accidentality changes another nurse's patient records meaning that they could potentially get the wrong treatment.</narrative>
+  </misusecase>
+</risk>
+<response risk="Wrong Data Entry" type="Prevent" >
+  <prevent_environment name="Special Care Baby Unit" />
+</response>
+<response risk="Theft of Confidential Data" type="Mitigate" >
+  <prevent_environment name="Special Care Baby Unit" />
+</response>
+<response risk="Information Interception" type="Mitigate" >
+  <prevent_environment name="Ricks Home" />
+</response>
+<asset_association environment="Special Care Baby Unit"  head_name="Clinical NeoNateNetwork" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="1" tail_name="Electronic Prescription System">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Clinical NeoNateNetwork" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Electronic Patient Records">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Clinical NeoNateNetwork" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Firebase Cloud Messaging">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Clinical NeoNateNetwork" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Electronic Patient Records">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Consumer NeoNateNetwork" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Electronic Patient Records">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Clinical NeoNateNetwork" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="1" tail_name="Firebase Cloud Messaging">
+  <rationale>There is only one of the Clinical N3 and that communicates with only one FCM service.</rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Consumer N3 Configuration" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Consumer NeoNateNetwork">
+  <rationale>None</rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Consumer NeoNateNetwork" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Firebase Cloud Messaging">
+  <rationale>There is only one of the consumer N3 and that communicates with only one FCM service.</rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Firebase Cloud Messaging" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="a" tail_adornment="Association" tail_nav="1" tail_name="Pictures and Videos of the neonatal children">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Firebase Cloud Messaging" head_nav="0" head_adornment="Association" head_nry="1" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Pictures and Videos of the neonatal children">
+  <rationale>There is only a single version of FCM services but multiple images and videos</rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Neonatal Nurses Tablet" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Clinical NeoNateNetwork">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="IT Staff" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Clinical NeoNateNetwork">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="IT Staff" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Consumer N3 Configuration">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Consulants" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Clinical NeoNateNetwork">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name=" Home Care Nurse" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Clinical NeoNateNetwork">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Neonatal Nurse Workstation" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="1" tail_name="Clinical NeoNateNetwork">
+  <rationale>There might be multiple workstations that connect up to a single clinical N3</rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Ricks Smartphone" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Consumer NeoNateNetwork">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name=" Home Care Nurse" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1" tail_adornment="Association" tail_nav="0" tail_name="Clinical NeoNateNetwork">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Neonatal Nurse" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Neonatal Nurse Workstation">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Neonatal Nurse" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Neonatal Nurses Tablet">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Neonatal Nurse" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Neonates">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name="Consulants" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Neonates">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Special Care Baby Unit"  head_name=" Home Care Nurse" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Neonates">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Parents" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Ricks Smartphone">
+  <rationale>There is only one or two parents that may own one or more smart devices</rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name="Parents" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Neonates">
+  <rationale></rationale>
+</asset_association>
+<asset_association environment="Ricks Home"  head_name=" Home Care Nurse" head_nav="0" head_adornment="Association" head_nry="1..a" head_role="" tail_role="" tail_nry="1..a" tail_adornment="Association" tail_nav="0" tail_name="Neonates">
+  <rationale></rationale>
+</asset_association>
+
+</riskanalysis>
+
+<usability>
+<persona name="Trinity" type="Primary" assumption_persona="FALSE" image="JSG8mr9Vd5lX1E93Vo361eTZVlOfhpQ5.jpeg" >
+  <activities>Trinity's day starts with her shift at 7:30 am where she and her colleagues meet up to be informed on the important information for the day. When she knows where she will be working she will start her shift with the handover from the previous nurses and then begin to tick off her tasks such as preparing and checking medications, managing the baby's fluids and recording her observations and documenting the babies care.</activities>
+  <attitudes>Trinity has worked as a neonatal nurse for over 10 years and has always done things the same way. She is happy that there is a new system being introduced but a little hesitant of the change.</attitudes>
+  <aptitudes>Trinity has always had the aptitude to work with children and always had a strong maternal instinct.</aptitudes>
+  <motivations>Trinity has always gravitated towards caring for anyone who needed it and it's what motivates her to go to work where sometimes she has to make hard choices. </motivations>
+  <skills>Trinity is considered OCD to many of her friends due to her attention to detail but she says that it helps in understanding the stages that her patients go through. Over her 10 years of experience in a fast pace environment, she has developed the skill and ability to make quick decisions. She has also developed strong communication skills due to her regular contact with parents and sometimes having to tell them distressing news about their baby's health.</skills>
+  <intrinsic>none</intrinsic>
+  <contextual>none</contextual>
+  <persona_environment name="Special Care Baby Unit" is_direct="FALSE" >
+    <persona_role name="Nurse (Neonatal)" />
+    <narrative></narrative>
+  </persona_environment>
+</persona>
+<persona name="Rick" type="Primary" assumption_persona="TRUE" image="j9PwBfrDLg04aT5ApZPw35N2vrRQbXWh.jpeg" >
+  <activities>Rick is a single parent of a patient that is currently under the care of the clinical health team at the SCBU. He is currently working from home and runs a successful software development company. He spends his time using N3 to communicate with the team that is looking after his child.
+
+</activities>
+  <attitudes>Rick is going through an extremely hard and stressful time and his attitudes to everything is negative at the moment.</attitudes>
+  <aptitudes>Rick is a software developer and now running his own company. He has always had the aptitudes of coding and has turned that into a business.</aptitudes>
+  <motivations>Rick came from a poor background so he has always stride to succeed and that has been one of his biggest motivations.</motivations>
+  <skills>Rick is an extremely tech-savvy person who has great problem-solving skills and great time management skills. His attention to detail has caused him to succeed in his job market.
+</skills>
+  <intrinsic>none</intrinsic>
+  <contextual>none</contextual>
+  <persona_environment name="Ricks Home" is_direct="FALSE" >
+    <persona_role name="Parent" />
+    <narrative></narrative>
+  </persona_environment>
+</persona>
+<task name="Checking Childs Progress" code="CCP" author="Paul" assumption_task="FALSE" >
+  <objective>Rick using the consumer version of N3 to check his child's progress.</objective>
+  <task_environment name="Ricks Home" >
+    <dependencies>Rick's phone must be available
+N3 must be downloaded from the app store
+N3 must be configured correctly
+FCM must be available</dependencies>
+    <task_persona persona="Rick" duration="Minutes" frequency="Daily_-_Weekly" demands="High" goal_conflict="None" />
+    <task_concern asset="Consumer NeoNateNetwork" />
+    <task_concern asset="Ricks Smartphone" />
+    <task_concern asset="Parents" />
+    <narrative>Rick will use the consumer version of N3 that he downloaded from the AppStore and configured using the configuration file he received from SCBU to check to the clinical version of N3 and access his child's records.</narrative>
+    <consequences>TO BE ADDED</consequences>
+    <benefits>ye</benefits>
+    <task_concern_association source_name="Consumer NeoNateNetwork" source_nry="1" link_name="" target_nry="1" target_name="Ricks Smartphone" />
+  </task_environment>
+</task>
+<task name="Update Clinical Team" code="UCT" author="Paul" assumption_task="FALSE" >
+  <objective>Rick sends nappy changes, feeds and medication time to the clinical team when his child is discharged from the hospital.</objective>
+  <task_environment name="Ricks Home" >
+    <dependencies>Rick's child must be well enough to be sent home
+Rick's phone must be available
+N3 must be downloaded from the app store
+N3 must be configured correctly
+FCM must be available</dependencies>
+    <task_persona persona="Rick" duration="Minutes" frequency="Daily_-_Weekly" demands="High" goal_conflict="None" />
+    <task_concern asset="Consumer N3 Configuration" />
+    <task_concern asset="Consumer NeoNateNetwork" />
+    <task_concern asset="Ricks Smartphone" />
+    <task_concern asset="Parents" />
+    <task_concern asset="Neonates" />
+    <task_concern asset="Firebase Cloud Messaging" />
+    <narrative>Rick will use the consumer version of N3 to send nappy changes, feeds and medication time when his child is discharged from the hospital.</narrative>
+    <consequences>TODO</consequences>
+    <benefits>TODO</benefits>
+  </task_environment>
+</task>
+<task name="Sending Pictures and Videos" code="SPV" author="Paul" assumption_task="FALSE" >
+  <objective>Trinity sends pictures and videos of her patient and Rick's child to Rick through FCM.</objective>
+  <task_environment name="Special Care Baby Unit" >
+    <dependencies>Workstation or Tablet must be available
+N3 must be configured correctly
+FCM must be available</dependencies>
+    <task_persona persona="Trinity" duration="Seconds" frequency="Hourly_or_more" demands="None" goal_conflict="None" />
+    <task_concern asset="Pictures and Videos of the neonatal children" />
+    <task_concern asset="Neonatal Nurse Workstation" />
+    <task_concern asset="Neonatal Nurses Tablet" />
+    <task_concern asset="Neonatal Nurse" />
+    <task_concern asset="Firebase Cloud Messaging" />
+    <narrative>Trinity will use her tablet or workstation to send pictures and videos of Rick's child to Rick through the FCM.</narrative>
+    <consequences>to be added</consequences>
+    <benefits>to be added</benefits>
+  </task_environment>
+</task>
+</usability>
+
+<goals>
+<goal name="Creating a successful Clinical version of NeoNateNetwork" originator="NHS Trust">
+  <goal_environment name="Special Care Baby Unit" category="Maintain" priority="High" >
+    <definition>To create a working clinical version of N3</definition>
+    <fit_criterion>All requirements must be satisfied.</fit_criterion>
+    <issue></issue>
+    <concern name="Neonatal Nurse" />
+    <concern name="IT Staff" />
+    <concern name=" Home Care Nurse" />
+    <concern name="Consulants" />
+  </goal_environment>
+</goal>
+<goal name="Creating a successful  Consumer version of NeoNateNetwork" originator="NHS Trust">
+  <goal_environment name="Ricks Home" category="Achieve" priority="High" >
+    <definition>Create a successful N3 program.</definition>
+    <fit_criterion>An successful program is created that meets all criteria. </fit_criterion>
+    <issue></issue>
+    <concern name="Pictures and Videos of the neonatal children" />
+    <concern name="Consumer NeoNateNetwork" />
+    <concern name="Parents" />
+    <concern name="Firebase Cloud Messaging" />
+  </goal_environment>
+</goal>
+<obstacle name="Breach of Confidential Information" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Confidentiality_Threat" >
+    <definition>The breach of information that was supposed to be kept protected and secure.</definition>
+    <concern name="Electronic Prescription System" />
+    <concern name="Clinical NeoNateNetwork" />
+    <concern name="Neonatal Nurse Workstation" />
+    <concern name="Neonatal Nurses Tablet" />
+    <concern name="Firebase Cloud Messaging" />
+    <probability value="0.7" >
+      <rationale>The main reason why SCBU would be targeted is for the medical information that is being stored there. This is a high and pricey target for threat actors.</rationale>
+    </probability>
+  </obstacle_environment>
+  <obstacle_environment name="Ricks Home" category="Confidentiality_Threat" >
+    <definition>The breach of information that was supposed to be kept protected and secure.</definition>
+    <concern name="Electronic Patient Records" />
+    <probability value="0.7" >
+      <rationale>It is not very likely that Rick's phone would be stolen but it's possible.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Breach of Information integrity" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Integrity_Threat" >
+    <definition>The breach of integrity regarding data stored and flowing through N3.</definition>
+    <concern name="Electronic Patient Records" />
+    <concern name="Electronic Prescription System" />
+    <concern name="Clinical NeoNateNetwork" />
+    <probability value="0.6" >
+      <rationale>This is a new and complex system and the staff members need training but those not as tech-savvy still might not know what they're doing.</rationale>
+    </probability>
+  </obstacle_environment>
+  <obstacle_environment name="Ricks Home" category="Availability_Threat" >
+    <definition>The breach of integrity regarding data stored and flowing through N3.</definition>
+    <concern name="Electronic Patient Records" />
+    <concern name="Consumer NeoNateNetwork" />
+    <concern name="Ricks Smartphone" />
+    <concern name="Firebase Cloud Messaging" />
+    <probability value="0.7" >
+      <rationale>There are many reasons why the integrity of information may have been breached. From careless mistakes to malicious threat actors</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Insider Attack" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>A malicious threat actor on the inside of SCBU like a disgruntled employee.</definition>
+    <concern name="Electronic Patient Records" />
+    <concern name="Electronic Prescription System" />
+    <concern name="Neonatal Nurse Workstation" />
+    <concern name="Neonatal Nurses Tablet" />
+    <probability value="0.3" >
+      <rationale>Most employees when fired are disgruntled but will not go to the lengths of breaking serious laws to steal confidential information.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Inadequate Data Protection" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Vulnerability" >
+    <definition>The database that is being used to store confidential information such as medical records is not properly secured.</definition>
+    <concern name="Electronic Patient Records" />
+    <concern name="Electronic Prescription System" />
+    <probability value="0.8" >
+      <rationale>The main reason why SCBU would be targeted is for the medical information that is being stored there. This is a high and pricey target for threat actors.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Hardware Theft" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>The nurse's workstation or tablet are stolen.</definition>
+    <concern name="Neonatal Nurse Workstation" />
+    <concern name="Neonatal Nurses Tablet" />
+    <probability value="0.6" >
+      <rationale>There is a good probability that opportunist threat actors who believe they can get away with stealing the hardware and not get caught will take the chance.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Accidental Wrong Data Entry" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>The wrong data being written and committed to the wrong patient's records</definition>
+    <concern name="Electronic Patient Records" />
+    <concern name="Electronic Prescription System" />
+    <concern name="Clinical NeoNateNetwork" />
+    <concern name="Neonatal Nurse Workstation" />
+    <concern name="Neonatal Nurses Tablet" />
+    <concern name="Neonatal Nurse" />
+    <concern name="IT Staff" />
+    <concern name=" Home Care Nurse" />
+    <concern name="Consulants" />
+    <probability value="0.6" >
+      <rationale>This is a new and complex system and the staff members need training but those not as tech-savvy still might not know what they're doing.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Breach of Availability " originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Availability_Threat" >
+    <definition>The services needed for N3 to succeed is unavailable.</definition>
+    <concern name="Electronic Prescription System" />
+    <concern name="Clinical NeoNateNetwork" />
+    <concern name="Neonatal Nurse Workstation" />
+    <concern name="Neonatal Nurses Tablet" />
+    <concern name=" Home Care Nurse" />
+    <concern name="Firebase Cloud Messaging" />
+    <probability value="0.7" >
+      <rationale>People make mistake, no matter how experience they are. IT technicians might configure it wrongly but unlikely. </rationale>
+    </probability>
+  </obstacle_environment>
+  <obstacle_environment name="Ricks Home" category="Threat" >
+    <definition>The services needed for N3 to succeed is unavailable.</definition>
+    <concern name="Clinical NeoNateNetwork" />
+    <concern name="Ricks Smartphone" />
+    <concern name="Firebase Cloud Messaging" />
+    <probability value="0.9" >
+      <rationale>It is not very likely that Rick's phone would be stolen but it's possible.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="FCM unavailable" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>The service that N3 relies on is unavailable</definition>
+    <probability value="0.1" >
+      <rationale>FCM is a huge company and can deal with any problems on their end. It's a very small probability that they face a problem that will take them offline.</rationale>
+    </probability>
+  </obstacle_environment>
+  <obstacle_environment name="Ricks Home" category="Threat" >
+    <definition>The service that N3 relies on is unavailable</definition>
+    <concern name="Firebase Cloud Messaging" />
+    <probability value="0.1" >
+      <rationale>FCM is a huge company and can deal with any problems on their end. It's a very small probability that they face a problem that will take them offline.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Tablet or Workstation unavailable" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>The workstation or tablet that the nurses use are unavailable </definition>
+    <concern name="Neonatal Nurse Workstation" />
+    <concern name="Neonatal Nurses Tablet" />
+    <probability value="0.6" >
+      <rationale>There is a good probability that opportunist threat actors who believe they can get away with stealing the hardware and not get caught will take the chance.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="N3 Configured Incorrectly" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>N3 installed and configured onto the nurse's workstation and tablet is configured wrong.</definition>
+    <concern name="Clinical NeoNateNetwork" />
+    <concern name="IT Staff" />
+    <probability value="0.1" >
+      <rationale>People make mistake, no matter how experience they are. IT technicians might configure it wrongly but unlikely. </rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Unable to download N3" originator="Paul" >
+  <obstacle_environment name="Ricks Home" category="Threat" >
+    <definition>N3 is unable to be downloaded from the AppStore.</definition>
+    <concern name="Consumer NeoNateNetwork" />
+    <probability value="0.1" >
+      <rationale>N3 is on the app store ran by Google or Apple and they are giants. There is no clear reason why the app store that Rick uses will not be available but it's not impossible. </rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Phone Unavailable" originator="Paul" >
+  <obstacle_environment name="Ricks Home" category="Threat" >
+    <definition>Rick's phone is unavailable for him to use.</definition>
+    <concern name="Ricks Smartphone" />
+    <probability value="0.7" >
+      <rationale>Rick's smart device needs to be charged for him to use N3</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Breach of Security Policy" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>The breach of security policies relating to data.</definition>
+    <probability value="0.3" >
+      <rationale>This is a new and complex system and the staff members need training but those not as tech-savvy still might not know what they're doing.</rationale>
+    </probability>
+  </obstacle_environment>
+  <obstacle_environment name="Ricks Home" category="Threat" >
+    <definition>The breach of security policies relating to data.</definition>
+    <probability value="0.3" >
+      <rationale>There are many reasons why the integrity of information may have been breached. From careless mistakes to malicious threat actors</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Unsure Staff" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>The staff at SCBU that uses N3 have had no training on how to use this new system.</definition>
+    <concern name="Clinical NeoNateNetwork" />
+    <probability value="0.6" >
+      <rationale>This is a new and complex system and the staff members need training but those not as tech-savvy still might not know what they're doing.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Accidental Deletion of Data" originator="Paul" >
+  <obstacle_environment name="Special Care Baby Unit" category="Threat" >
+    <definition>The accidental delete of confidential data.</definition>
+    <concern name="Electronic Patient Records" />
+    <concern name="Electronic Prescription System" />
+    <concern name="Clinical NeoNateNetwork" />
+    <concern name="Neonatal Nurse" />
+    <concern name=" Home Care Nurse" />
+    <concern name="Consulants" />
+    <probability value="0.6" >
+      <rationale>This is a new and complex system and the staff members need training but those not as tech-savvy still might not know what they're doing.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Phone Stolen" originator="Paul" >
+  <obstacle_environment name="Ricks Home" category="Availability_Threat" >
+    <definition>Rick's phone is stolen</definition>
+    <concern name="Ricks Smartphone" />
+    <probability value="0.2" >
+      <rationale>It is not very likely that Rick's phone would be stolen but it's possible.</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<obstacle name="Uncharged Phone" originator="Paul" >
+  <obstacle_environment name="Ricks Home" category="Availability_Threat" >
+    <definition>Rick's phone has been uncharged.</definition>
+    <concern name="Ricks Smartphone" />
+    <probability value="0.4" >
+      <rationale>Rick's smart device needs to be charged for him to use N3</rationale>
+    </probability>
+  </obstacle_environment>
+</obstacle>
+<requirement name="Password Protection" reference="Ricks Smartphone" reference_type="asset" label="1" type="Security" priority="1" >
+  <description>Adequate password protection on Rick's and other parents smart device</description>
+  <rationale>A password would help combat the loss of confidential data if Rick's phone is stolen.</rationale>
+  <fit_criterion>a password that is longer than 8 characters that include upper cases, symbols and numbers.</fit_criterion>
+  <originator>Paul</originator>
+</requirement>
+<requirement name="Double Confirmation" reference="Special Care Baby Unit" reference_type="environment" label="1" type="Functional" priority="1" >
+  <description>To make edits and add new information to patient records you first must double-check everything and confirm twice.</description>
+  <rationale>Making sure that nurses double-check what information they're adding and making them confirm it twice will mean that the chances of adding information to the wrong patient's records is reduced.</rationale>
+  <fit_criterion>Kate should have to double-check and confirm twice to complete an information addition request.</fit_criterion>
+  <originator>Paul</originator>
+</requirement>
+<requirement name="Secure Traffic" reference="Special Care Baby Unit" reference_type="environment" label="2" type="Security" priority="1" >
+  <description>Applying adequate protection measures to the traffic that flows between FCM and SCBU</description>
+  <rationale>The information that flows between is confidential and contains medical records and other messages meant only for the parents of the neonatal children and the staff members looking after them.</rationale>
+  <fit_criterion>The traffic that flows shouldn't be in plaintext or any easy to crack encryption or ciphers.</fit_criterion>
+  <originator>Paul</originator>
+</requirement>
+<requirement name="Corporate Hierarchy" reference="Special Care Baby Unit" reference_type="environment" label="3" type="Security" priority="1" >
+  <description>A hierarchy of levels for each staff member that currently works at the SCBU.</description>
+  <rationale>Including a hierarchy and permissions will stop unauthorised users from accessing materials and information that they shouldn't be able too. Nurses can access medical records and other medical data, IT Staff can access software, hardware and permissions for staff and the board of directors and other staff higher can access all. </rationale>
+  <fit_criterion>Only authorised users should be able to access the files that they need too.</fit_criterion>
+  <originator>Paul</originator>
+</requirement>
+<requirement name="Password Protected Hardware" reference="Special Care Baby Unit" reference_type="environment" label="4" type="Security" priority="1" >
+  <description>Adequate Password protection on devices that need it.</description>
+  <rationale>Password protecting hardware would help combat any confidential data loss if these devices were stolen.</rationale>
+  <fit_criterion>A password longer than 8 characters that include upper cases, symbols and numbers</fit_criterion>
+  <originator>Paul</originator>
+</requirement>
+<requirement name="Training Days" reference="Special Care Baby Unit" reference_type="environment" label="5" type="Functional" priority="1" >
+  <description>Mandatory training days</description>
+  <rationale>Unsure staff is the main issue when it comes to wrong data entry and data deletion so teaching them how to use N3 and make sure they know will help combat these two issues.</rationale>
+  <fit_criterion>Staff will attend a whole day when using this system and pass a test at the end</fit_criterion>
+  <originator>Paul</originator>
+</requirement>
+<usecase name="Pictures and Videos Sending" author="Paul" code="PVS" >
+  <description>Neonatal Nurse sends pictures and videos of a child to their parents through FCM.</description>
+  <actor name="Parent" />
+  <actor name="Nurse (Neonatal)" />
+  <usecase_environment name="Special Care Baby Unit" >
+    <preconditions>Workstation and tablet must be available
+IT Staff must have configured N3 correctly and installed it correctly
+FCM available</preconditions>
+    <flow>
+      <step number="1" description="Takes Pictures and videos of childrenen" >
+      </step>
+      <step number="2" description="Turns on workstation or tablet" >
+      </step>
+      <step number="3" description="Access N3" >
+      </step>
+      <step number="4" description="Sends pictures and videos" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+  <usecase_environment name="Ricks Home" >
+    <preconditions>Smart device working
+N3 downloaded and installed correctly
+FCM available</preconditions>
+    <flow>
+      <step number="1" description="Turns on smart phone" >
+      </step>
+      <step number="2" description="Accesses N3" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+</usecase>
+<usecase name="Home Progress" author="Paul" code="HCP" >
+  <description>Home Care Nurse visits the home of Rick and his child when they are safe enough to go home to check whether they're safe to be finally discharged.</description>
+  <actor name="Parent" />
+  <actor name="Nurse (Home Care)" />
+  <usecase_environment name="Special Care Baby Unit" >
+    <preconditions>Home care nurse available
+Rick's child to be well enough to be sent home</preconditions>
+    <flow>
+      <step number="1" description="Home Care Nurse checks Rick's Information" >
+      </step>
+      <step number="2" description="Home care nurse confirms with Rick " >
+      </step>
+      <step number="3" description="Home care nurse visits Rick's home" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+  <usecase_environment name="Ricks Home" >
+    <preconditions>Home care nurse available
+Rick's child to be well enough to be sent home</preconditions>
+    <flow>
+      <step number="1" description="Rick confirms with Home care nurse" >
+      </step>
+      <step number="2" description="Rick updates Home care nurse when they visit about the progress of their child" >
+      </step>
+      <step number="3" description="Homecare nurse takes notes and commits them to the EPR" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+</usecase>
+<usecase name="Accessing Childs Medical Record" author="Paul" code="ACMR" >
+  <description>Rick accessing his child's medical records from home using the clinical version of N3 and Trinity accessing her patient's records on the clinical version of N3 on a tablet or workstation.</description>
+  <actor name="Parent" />
+  <actor name="Nurse (Neonatal)" />
+  <usecase_environment name="Special Care Baby Unit" >
+    <preconditions>The workstations or tablets must be available for Trinity to use.
+The SCBU IT Staff must have configured and installed N3 correctly.</preconditions>
+    <flow>
+      <step number="1" description="Turn on Workstation or Tablet" >
+        <exception name="Workstation or Tablet is unavailable" type="None" value="None" category="None" >
+          <definition>The workstation or tablet that the nurses use are unavailable </definition>
+        </exception>
+      </step>
+      <step number="2" description="Access N3" >
+        <exception name="N3 unavailable" type="None" value="None" category="None" >
+          <definition>N3 is unavailable</definition>
+        </exception>
+        <exception name="Workstation or Tablet is unavailable" type="None" value="None" category="None" >
+          <definition>The workstation or tablet is unavailable</definition>
+        </exception>
+      </step>
+      <step number="3" description="Access Electronic Patient Records" >
+        <exception name="N3 unavailable" type="None" value="None" category="None" >
+          <definition>N3 is unavailable</definition>
+        </exception>
+        <exception name="The EPR is unavailable " type="None" value="None" category="None" >
+          <definition>The electronic patient records are unavailable</definition>
+        </exception>
+        <exception name="Workstation or Tablet is unavailable" type="None" value="None" category="None" >
+          <definition>The Workstation or Tablet is unavailable</definition>
+        </exception>
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+  <usecase_environment name="Ricks Home" >
+    <preconditions>Rick must have a smart device
+Rick must have the consumer version of N3 installed
+The configuration file must be correct
+EPR must be available</preconditions>
+    <flow>
+      <step number="1" description="Turn on Smart Device " >
+        <exception name="Smart device unavailable" type="None" value="None" category="None" >
+          <definition>Rick's smart device is unavailable for him to use.</definition>
+        </exception>
+      </step>
+      <step number="2" description="Access N3" >
+        <exception name="N3 unavailable" type="None" value="None" category="None" >
+          <definition>N3 is unavailable for Rick to use.</definition>
+        </exception>
+      </step>
+      <step number="3" description="Access Electronic Patient Records" >
+        <exception name="Electronic Patient Records unavailable" type="None" value="None" category="None" >
+          <definition>The EPR is unavailable for Rick to access.</definition>
+        </exception>
+        <exception name="N3 unavailable" type="None" value="None" category="None" >
+          <definition>N3 is unavailable for Rick to use.</definition>
+        </exception>
+        <exception name="Smart device unavailable" type="None" value="None" category="None" >
+          <definition>Rick's smart device is unavailable for him to use.</definition>
+        </exception>
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+</usecase>
+<usecase name="Updating the neonatal team" author="Paul" code="UNT" >
+  <description>Communicate with the clinical team when the patient is discharged to inform them of times for nappy changes, feeds and medication.</description>
+  <actor name="Parent" />
+  <actor name="Nurse (Neonatal)" />
+  <actor name="Nurse (Home Care)" />
+  <actor name="Consultant" />
+  <usecase_environment name="Special Care Baby Unit" >
+    <preconditions>Workstation and tablet available
+N3 installed and configured correctly
+FCM available </preconditions>
+    <flow>
+      <step number="1" description="Access Workstation or tablet" >
+      </step>
+      <step number="2" description="Access N3" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+  <usecase_environment name="Ricks Home" >
+    <preconditions>Smart Device working
+N3 installed and configured
+Child well enough to go home
+FCM available </preconditions>
+    <flow>
+      <step number="1" description="Turns on smart phone" >
+      </step>
+      <step number="2" description="Accesses N3" >
+      </step>
+      <step number="3" description="Send times for nappy changes, feeds and medication" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+</usecase>
+<usecase name="Care Plan Commenting" author="Paul" code="CPC" >
+  <description>Rick using the consumer version of N3 and sending his comments and thoughts on his child's care plan through FCM to the neonatal clinical team using the clinical version of N3.</description>
+  <actor name="Parent" />
+  <usecase_environment name="Special Care Baby Unit" >
+    <preconditions>The nurse's workstation and tablet must be available 
+N3 must have been installed and configured correctly
+FCM must be available </preconditions>
+    <flow>
+      <step number="1" description="Turn on workstation or tablet" >
+        <exception name="Workstation or Tablet is unavailable" type="None" value="None" category="None" >
+          <definition>Workstation or Tablet is unavailable</definition>
+        </exception>
+      </step>
+      <step number="2" description="Access N3" >
+        <exception name="N3 unavailable" type="None" value="None" category="None" >
+          <definition>N3 is unavailable</definition>
+        </exception>
+        <exception name="Workstation or Tablet is unavailable" type="None" value="None" category="None" >
+          <definition>Workstation or Tablet is unavailable</definition>
+        </exception>
+      </step>
+      <step number="3" description="Read Rick's comments" >
+        <exception name="FCM unavailable. " type="None" value="None" category="None" >
+          <definition>FCM unavailable</definition>
+        </exception>
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+  <usecase_environment name="Ricks Home" >
+    <preconditions>Rick's smartphone must be available
+N3 must have been downloaded and configured correctly
+FCM must be available</preconditions>
+    <flow>
+      <step number="1" description="Turn on smart device" >
+        <exception name="Smart device unavailable " type="None" value="None" category="None" >
+          <definition>Rick's smart device is unavailable </definition>
+        </exception>
+      </step>
+      <step number="2" description="Install N3 from the AppStore and use the configuration file from SCBU" >
+        <exception name="Can't Install N3" type="None" value="None" category="None" >
+          <definition>Rick is unable to install N3 from the appstore</definition>
+        </exception>
+        <exception name="Configuration file is wrong" type="None" value="None" category="None" >
+          <definition>The configuration file Rick got from SCBU is wrong.</definition>
+        </exception>
+      </step>
+      <step number="3" description="Access N3" >
+        <exception name="N3 unavailable" type="None" value="None" category="None" >
+          <definition>N3 is unavailable </definition>
+        </exception>
+      </step>
+      <step number="4" description="Send comments on careplan" >
+        <exception name="FCM unavailable. " type="None" value="None" category="None" >
+          <definition>FCM is unavailable for Rick to send the messages</definition>
+        </exception>
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+</usecase>
+<usecase name="Summarise treatment plan and comment on general progress" author="Paul" code="STP" >
+  <description>Consultants should be able to use N3 to provide summaries of the patient's treatment plans and comment on their general progress</description>
+  <actor name="Neonate" />
+  <actor name="Consultant" />
+  <usecase_environment name="Special Care Baby Unit" >
+    <preconditions>Consultant available
+Neonate well enough to visit</preconditions>
+    <flow>
+      <step number="1" description="Visit Neonate" >
+      </step>
+      <step number="2" description="Accesses N3" >
+      </step>
+      <step number="3" description="Accesses EPR" >
+      </step>
+      <step number="4" description="Provide comments" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+</usecase>
+<usecase name="Configuring N3" author="Paul" code="CN3" >
+  <description>Configure and Install N3 correctly</description>
+  <actor name="Parent" />
+  <actor name="IT Technician" />
+  <usecase_environment name="Special Care Baby Unit" >
+    <preconditions>IT staff available</preconditions>
+    <flow>
+      <step number="1" description="Send configuration file to Parent" >
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+  <usecase_environment name="Ricks Home" >
+    <preconditions>Rick must have his phone available </preconditions>
+    <flow>
+      <step number="1" description="Turn on phone " >
+        <exception name="Smart device unavailable." type="None" value="None" category="None" >
+          <definition>Rick's Smart device is unavailable.</definition>
+        </exception>
+      </step>
+      <step number="2" description="Download N3" >
+        <exception name="N3 unable to download from store" type="None" value="None" category="None" >
+          <definition>Rick can't install N3</definition>
+        </exception>
+      </step>
+      <step number="3" description="Use configuration file" >
+        <exception name="Configuration file wrong" type="None" value="None" category="None" >
+          <definition>The configuration file from SCBU is wrong</definition>
+        </exception>
+      </step>
+    </flow>
+    <postconditions>None</postconditions>
+  </usecase_environment>
+</usecase>
+<countermeasure name="Data Modification Double Confirmation " type="Information" >
+  <description>Double-check whether the user wants to commit or delete the data entered.</description>
+  <countermeasure_environment name="Special Care Baby Unit" cost="Low" >
+    <countermeasure_requirement name="Double Confirmation" />
+    <responsible_role name="Nurse (Neonatal)" />
+    <responsible_role name="Nurse (Home Care)" />
+    <responsible_role name="Consultant" />
+    <responsible_persona task="Update Clinical Team" persona="Trinity" duration="None" frequency="None" demands="None" goals="None" />
+    <responsible_persona task="Sending Pictures and Videos" persona="Trinity" duration="None" frequency="None" demands="None" goals="None" />
+  </countermeasure_environment>
+</countermeasure>
+<countermeasure name="Using Secure Traffic Measurements " type="Information" >
+  <description>Encrypting the communication sent from and to SCBU.</description>
+  <countermeasure_environment name="Special Care Baby Unit" cost="Low" >
+    <countermeasure_requirement name="Secure Traffic" />
+    <responsible_role name="Nurse (Neonatal)" />
+    <responsible_role name="Nurse (Home Care)" />
+    <responsible_role name="Consultant" />
+    <responsible_persona task="Sending Pictures and Videos" persona="Trinity" duration="None" frequency="None" demands="None" goals="None" />
+  </countermeasure_environment>
+  <countermeasure_environment name="Ricks Home" cost="Low" >
+    <countermeasure_requirement name="Secure Traffic" />
+    <responsible_role name="Parent" />
+    <responsible_persona task="Checking Childs Progress" persona="Rick" duration="None" frequency="None" demands="None" goals="None" />
+    <responsible_persona task="Update Clinical Team" persona="Rick" duration="None" frequency="None" demands="None" goals="None" />
+  </countermeasure_environment>
+</countermeasure>
+<countermeasure name="Corporate Hierarchy and Levels of Access" type="Information" >
+  <description>Applying levels of access to the SCBU staff so they can only access the information they're allowed.</description>
+  <countermeasure_environment name="Special Care Baby Unit" cost="Low" >
+    <countermeasure_requirement name="Corporate Hierarchy" />
+    <responsible_role name="Nurse (Neonatal)" />
+    <responsible_role name="Nurse (Home Care)" />
+    <responsible_role name="Consultant" />
+    <responsible_role name="IT Technician" />
+    <responsible_persona task="Sending Pictures and Videos" persona="Trinity" duration="None" frequency="None" demands="None" goals="None" />
+  </countermeasure_environment>
+</countermeasure>
+</goals>
+
+<associations>
+<goal_association environment="Special Care Baby Unit"  goal_name="Insider Attack" goal_dim="obstacle" ref_type="resolve" subgoal_name="Corporate Hierarchy" subgoal_dim="requirement" alternative_id="0" >
+  <rationale>Levels of access will help combat insider attackers</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Inadequate Data Protection" goal_dim="obstacle" ref_type="resolve" subgoal_name="Corporate Hierarchy" subgoal_dim="requirement" alternative_id="0" >
+  <rationale>Levels of access will provide another layer of protection to data</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Phone Stolen" goal_dim="obstacle" ref_type="resolve" subgoal_name="Password Protection" subgoal_dim="requirement" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Inadequate Data Protection" goal_dim="obstacle" ref_type="resolve" subgoal_name="Password Protected Hardware" subgoal_dim="requirement" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Unsure Staff" goal_dim="obstacle" ref_type="resolve" subgoal_name="Training Days" subgoal_dim="requirement" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Inadequate Data Protection" goal_dim="obstacle" ref_type="resolve" subgoal_name="Secure Traffic" subgoal_dim="requirement" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Creating a successful Clinical version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Sending Pictures and Videos" subgoal_dim="task" alternative_id="0" >
+  <rationale>Nurses should be able to use N3 to send pictures and videos of the neonatal children to their parents</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Creating a successful  Consumer version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Checking Childs Progress" subgoal_dim="task" alternative_id="0" >
+  <rationale>The Parents should be able to check their childs progress</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Sending Pictures and Videos" subgoal_dim="task" alternative_id="0" >
+  <rationale>FCM must be available for Trinity to send pictures and videos to Rick</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Update Clinical Team" subgoal_dim="task" alternative_id="0" >
+  <rationale>FCM is required for Rick to update the clinical team.</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Care Plan Commenting" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>FCM must be available for Trinity to receive comments on her patient care plan from Rick</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Pictures and Videos Sending" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>FCM must be available for Trinity to send pictures and videos</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Updating the neonatal team" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>FCM must be available for Trinity to receive updates from Rick</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Care Plan Commenting" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Rick can't comment on his child's care plan if FCM is unavailable</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Updating the neonatal team" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>FCM needs to be available for Rick to update the neonatal team</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Pictures and Videos Sending" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>FCM must be available for Rick to receive pictures and videos of his child</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="FCM unavailable" goal_dim="obstacle" ref_type="and" subgoal_name="Pictures and Videos Sending" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Unable to download N3" goal_dim="obstacle" ref_type="and" subgoal_name="Accessing Childs Medical Record" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Creating a successful Clinical version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Accessing Childs Medical Record" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Nurses should be able to use N3 to check patient records.</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Creating a successful Clinical version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Home Progress" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Home Care Nurses should be able to use N3 to document their home visits</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Creating a successful Clinical version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Summarise treatment plan and comment on general progress" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Consultants should be able to use N3 to summarise their patient's treatment plans and comment on their general progress</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Creating a successful  Consumer version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Accessing Childs Medical Record" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Parents should be able to access their childrens medical records</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Creating a successful  Consumer version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Care Plan Commenting" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Parents should be able to use N3 to comment on their childs care plan</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Creating a successful  Consumer version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Pictures and Videos Sending" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Parents should be able to use N3 to receive pictures and videos of their children</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Creating a successful  Consumer version of NeoNateNetwork" goal_dim="goal" ref_type="and" subgoal_name="Updating the neonatal team" subgoal_dim="usecase" alternative_id="0" >
+  <rationale>Parents should be able to use N3 to update the neonatal team on nappy changes, feeds and medications time</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Tablet or Workstation unavailable" goal_dim="obstacle" ref_type="or" subgoal_name="Hardware Theft" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="FCM unavailable" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="Hardware Theft" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>Hardware's availability would be breached if it was stolen</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="Tablet or Workstation unavailable" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="N3 Configured Incorrectly" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Security Policy" goal_dim="obstacle" ref_type="or" subgoal_name="Breach of Availability " subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Accidental Deletion of Data" goal_dim="obstacle" ref_type="or" subgoal_name="Unsure Staff" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>Unsure staff with little to no experience on how to use N3 might lead to them accidentally deleting data</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="and" subgoal_name="Accidental Deletion of Data" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>Deleting the data also breaks the availability of the data</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Accidental Wrong Data Entry" goal_dim="obstacle" ref_type="or" subgoal_name="Unsure Staff" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>Unsure staff members with little to no experience of N3 might lead to committing the wrong data</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="or" subgoal_name="Hardware Theft" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="or" subgoal_name="Insider Attack" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="or" subgoal_name="Inadequate Data Protection" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Security Policy" goal_dim="obstacle" ref_type="or" subgoal_name="Breach of Confidential Information" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Information integrity" goal_dim="obstacle" ref_type="or" subgoal_name="Accidental Deletion of Data" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>The integrity of the information is broken if the data is incomplete</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Information integrity" goal_dim="obstacle" ref_type="or" subgoal_name="Accidental Wrong Data Entry" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>Wrong data being committed breaks the integrity of the data held in the EPR or EPS</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Security Policy" goal_dim="obstacle" ref_type="or" subgoal_name="Breach of Information integrity" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>A breach of information integrity is a breach of C.I.A</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Phone Unavailable" goal_dim="obstacle" ref_type="or" subgoal_name="Uncharged Phone" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Phone Unavailable" goal_dim="obstacle" ref_type="or" subgoal_name="Phone Stolen" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="FCM unavailable" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="Uncharged Phone" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>Phone's availability would be breached if the phone is uncharged</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="Unable to download N3" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="Phone Unavailable" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Availability " goal_dim="obstacle" ref_type="or" subgoal_name="Phone Stolen" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>Phone's availability would be breached if the phone is stolen</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Security Policy" goal_dim="obstacle" ref_type="or" subgoal_name="Breach of Availability " subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="or" subgoal_name="Phone Stolen" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Security Policy" goal_dim="obstacle" ref_type="or" subgoal_name="Breach of Confidential Information" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Security Policy" goal_dim="obstacle" ref_type="or" subgoal_name="Breach of Information integrity" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>A breach of integrity is a breach of C.I.A</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Double Confirmation" goal_dim="requirement" ref_type="obstruct" subgoal_name="Unsure Staff" subgoal_dim="obstacle" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Accidental Wrong Data Entry" goal_dim="obstacle" ref_type="and" subgoal_name="Accidental Data Entry" subgoal_dim="threat" alternative_id="0" >
+  <rationale>This threat is linked to the obstacle</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="and" subgoal_name="Man-In-The-Middle Attack" subgoal_dim="threat" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Information integrity" goal_dim="obstacle" ref_type="and" subgoal_name="Man-In-The-Middle Attack" subgoal_dim="threat" alternative_id="0" >
+  <rationale>A MITM attack will intercept data and potentially change it thus breaking the integrity</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Hardware Theft" goal_dim="obstacle" ref_type="and" subgoal_name="Inside Theft" subgoal_dim="threat" alternative_id="0" >
+  <rationale>An insider could steal the hardware</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Insider Attack" goal_dim="obstacle" ref_type="and" subgoal_name="Inside Theft" subgoal_dim="threat" alternative_id="0" >
+  <rationale>Insider attackers might attempt to steal confidential information</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Inadequate Data Protection" goal_dim="obstacle" ref_type="and" subgoal_name="Inside Theft" subgoal_dim="threat" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="and" subgoal_name="Inside Theft" subgoal_dim="threat" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Unsure Staff" goal_dim="obstacle" ref_type="and" subgoal_name="Insufficient User Training" subgoal_dim="vulnerability" alternative_id="0" >
+  <rationale>Staff are unsure on how to use the system due to insufficient user training</rationale>
+</goal_association>
+<goal_association environment="Special Care Baby Unit"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="and" subgoal_name="Unencrypted Communication" subgoal_dim="vulnerability" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="and" subgoal_name="Unencrypted Communication" subgoal_dim="vulnerability" alternative_id="0" >
+  <rationale>None</rationale>
+</goal_association>
+<goal_association environment="Ricks Home"  goal_name="Breach of Confidential Information" goal_dim="obstacle" ref_type="and" subgoal_name="Inadequate Datastore Protection" subgoal_dim="vulnerability" alternative_id="0" >
+  <rationale>Inadequate protection causes confidential information to be stolen</rationale>
+</goal_association>
+<dependency depender="Parent" dependee="Nurse (Neonatal)" dependency_type="task" dependency="Update Clinical Team" environment="Ricks Home" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="Parent" dependee="Consultant" dependency_type="task" dependency="Update Clinical Team" environment="Ricks Home" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="Parent" dependee="Nurse (Home Care)" dependency_type="task" dependency="Update Clinical Team" environment="Ricks Home" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="IT Technician" dependee="Parent" dependency_type="task" dependency="Checking Childs Progress" environment="Ricks Home" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="Nurse (Neonatal)" dependee="Parent" dependency_type="task" dependency="Checking Childs Progress" environment="Ricks Home" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="Nurse (Neonatal)" dependee="Parent" dependency_type="task" dependency="Sending Pictures and Videos" environment="Special Care Baby Unit" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="Neonate" dependee="Nurse (Neonatal)" dependency_type="task" dependency="Sending Pictures and Videos" environment="Special Care Baby Unit" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="IT Technician" dependee="Parent" dependency_type="asset" dependency="Consumer N3 Configuration" environment="Ricks Home" >
+  <rationale>None</rationale>
+</dependency>
+<dependency depender="Nurse (Neonatal)" dependee="Parent" dependency_type="asset" dependency="Pictures and Videos of the neonatal children" environment="Ricks Home" >
+  <rationale>None</rationale>
+</dependency>
+</associations>
+
+<synopses>
+  <step_synopsis environment="Ricks Home" usecase="Accessing Childs Medical Record" step_no="1" synopsis="TO BE ADDED" actor_type="role" actor="Parent" />
+  <step_synopsis environment="Ricks Home" usecase="Pictures and Videos Sending" step_no="1" synopsis="Jimmy can read and reply to updates, or view multimedia messages" actor_type="role" actor="Parent" />
+  <step_synopsis environment="Ricks Home" usecase="Updating the neonatal team" step_no="1" synopsis="TO BE ADDED" actor_type="role" actor="Parent" />
+</synopses>
+
+<misusability>
+</misusability>
+
+<dataflows>
+  <dataflow name="Pictures and Videos" type="Information" environment="Special Care Baby Unit" from_name="Neonatal Nurse" from_type="entity" to_name="Pictures and Videos Sending" to_type="process">
+  <tag name="tablet" />
+  <tag name="neonate" />
+  <tag name="nurse" />
+  <tag name="nhs" />
+    <dataflow_asset name="Pictures and Videos of the neonatal children" />
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name="Neonatal Nurse" />
+    <dataflow_asset name="Firebase Cloud Messaging" />
+  </dataflow>
+  <dataflow name="Patients Medical Records Request" type="Information" environment="Special Care Baby Unit" from_name="Neonatal Nurse" from_type="entity" to_name="Accessing Childs Medical Record" to_type="process">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+  </dataflow>
+  <dataflow name="Treatment Plan and General Progress Comments" type="Information" environment="Special Care Baby Unit" from_name="Consulants" from_type="entity" to_name="Summarise treatment plan and comment on general progress" to_type="process">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name="Consulants" />
+  </dataflow>
+  <dataflow name="Configuration File Creation" type="Information" environment="Special Care Baby Unit" from_name="IT Staff" from_type="entity" to_name="Configuring N3" to_type="process">
+    <dataflow_asset name="IT Staff" />
+  </dataflow>
+  <dataflow name="Home Progress Notes" type="Information" environment="Ricks Home" from_name=" Home Care Nurse" from_type="entity" to_name="Home Progress" to_type="process">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name="Neonates" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Childs Medical Records Request" type="Information" environment="Ricks Home" from_name="Parents" from_type="entity" to_name="Accessing Childs Medical Record" to_type="process">
+    <dataflow_asset name="Consumer NeoNateNetwork" />
+    <dataflow_asset name="Parents" />
+  </dataflow>
+  <dataflow name="Nappy changes, feeds and medication times" type="Information" environment="Ricks Home" from_name="Parents" from_type="entity" to_name="Updating the neonatal team" to_type="process">
+    <dataflow_asset name="Consumer NeoNateNetwork" />
+    <dataflow_asset name="Ricks Smartphone" />
+    <dataflow_asset name="Parents" />
+    <dataflow_asset name="Neonates" />
+    <dataflow_asset name="Firebase Cloud Messaging" />
+  </dataflow>
+  <dataflow name="Care Plan Comments" type="Information" environment="Ricks Home" from_name="Parents" from_type="entity" to_name="Care Plan Commenting" to_type="process">
+    <dataflow_asset name="Consumer NeoNateNetwork" />
+    <dataflow_asset name="Parents" />
+    <dataflow_asset name="Neonates" />
+    <dataflow_obstacle name="FCM unavailable" keyword="not applicable" >
+      <context>Rick can not</context>
+    </dataflow_obstacle>
+  </dataflow>
+  <dataflow name="Patient Records" type="Information" environment="Special Care Baby Unit" from_name="Accessing Childs Medical Record" from_type="process" to_name="Neonatal Nurse" to_type="entity">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+  </dataflow>
+  <dataflow name="Nappy changes, feeds and medication times" type="Information" environment="Special Care Baby Unit" from_name="Updating the neonatal team" from_type="process" to_name=" Home Care Nurse" to_type="entity">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Nappy changes, feeds and medication times" type="Information" environment="Special Care Baby Unit" from_name="Updating the neonatal team" from_type="process" to_name="Consulants" to_type="entity">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Nappy changes, feeds and medication times" type="Information" environment="Special Care Baby Unit" from_name="Updating the neonatal team" from_type="process" to_name="Neonatal Nurse" to_type="entity">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Care Plan Comments" type="Information" environment="Special Care Baby Unit" from_name="Care Plan Commenting" from_type="process" to_name=" Home Care Nurse" to_type="entity">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Care Plan Comments" type="Information" environment="Special Care Baby Unit" from_name="Care Plan Commenting" from_type="process" to_name="Consulants" to_type="entity">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Care Plan Comments" type="Information" environment="Special Care Baby Unit" from_name="Care Plan Commenting" from_type="process" to_name="Neonatal Nurse" to_type="entity">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Pictures and Videos" type="Information" environment="Ricks Home" from_name="Pictures and Videos Sending" from_type="process" to_name="Parents" to_type="entity">
+    <dataflow_asset name="Pictures and Videos of the neonatal children" />
+    <dataflow_asset name="Consumer NeoNateNetwork" />
+    <dataflow_asset name="Ricks Smartphone" />
+  </dataflow>
+  <dataflow name="Childs Medical Records" type="Information" environment="Ricks Home" from_name="Accessing Childs Medical Record" from_type="process" to_name="Parents" to_type="entity">
+    <dataflow_asset name="Electronic Patient Records" />
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+  </dataflow>
+  <dataflow name="Configuration File" type="Information" environment="Ricks Home" from_name="Configuring N3" from_type="process" to_name="Parents" to_type="entity">
+    <dataflow_asset name="Consumer N3 Configuration" />
+    <dataflow_asset name="Ricks Smartphone" />
+    <dataflow_obstacle name="Unable to download N3" keyword="not applicable" >
+      <context>N3 file received from SCBU is wrong.</context>
+    </dataflow_obstacle>
+  </dataflow>
+  <dataflow name="Patient Records" type="Information" environment="Special Care Baby Unit" from_name="Electronic Patient Records" from_type="datastore" to_name="Accessing Childs Medical Record" to_type="process">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+  </dataflow>
+  <dataflow name="Childs Medical Records" type="Information" environment="Ricks Home" from_name="Electronic Patient Records" from_type="datastore" to_name="Accessing Childs Medical Record" to_type="process">
+    <dataflow_asset name="Electronic Patient Records" />
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+  </dataflow>
+  <dataflow name="Home Progress Notes" type="Information" environment="Special Care Baby Unit" from_name="Home Progress" from_type="process" to_name="Electronic Patient Records" to_type="datastore">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Patients Medical Records Request" type="Information" environment="Special Care Baby Unit" from_name="Accessing Childs Medical Record" from_type="process" to_name="Electronic Patient Records" to_type="datastore">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+  </dataflow>
+  <dataflow name="Nappy changes, feeds and medication times" type="Information" environment="Special Care Baby Unit" from_name="Updating the neonatal team" from_type="process" to_name="Electronic Patient Records" to_type="datastore">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Care Plan Comments" type="Information" environment="Special Care Baby Unit" from_name="Care Plan Commenting" from_type="process" to_name="Electronic Patient Records" to_type="datastore">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name=" Home Care Nurse" />
+  </dataflow>
+  <dataflow name="Treatment Plan and General Progress Comments" type="Information" environment="Special Care Baby Unit" from_name="Summarise treatment plan and comment on general progress" from_type="process" to_name="Electronic Patient Records" to_type="datastore">
+    <dataflow_asset name="Clinical NeoNateNetwork" />
+    <dataflow_asset name="Consulants" />
+  </dataflow>
+  <dataflow name="Childs Medical Records Request" type="Information" environment="Ricks Home" from_name="Accessing Childs Medical Record" from_type="process" to_name="Electronic Patient Records" to_type="datastore">
+    <dataflow_asset name="Consumer NeoNateNetwork" />
+    <dataflow_asset name="Parents" />
+  </dataflow>
+  <trust_boundary name="N3" type="General" >
+    <description>N3</description>
+    <trust_boundary_environment name="Special Care Baby Unit">
+      <trust_boundary_component name="Pictures and Videos Sending" type="process" />
+      <trust_boundary_component name="Home Progress" type="process" />
+      <trust_boundary_component name="Accessing Childs Medical Record" type="process" />
+      <trust_boundary_component name="Updating the neonatal team" type="process" />
+      <trust_boundary_component name="Care Plan Commenting" type="process" />
+      <trust_boundary_component name="Summarise treatment plan and comment on general progress" type="process" />
+      <trust_boundary_component name="Electronic Patient Records" type="datastore" />
+      <trust_boundary_component name="Electronic Prescription System" type="datastore" />
+    </trust_boundary_environment>
+    <trust_boundary_environment name="Ricks Home">
+      <trust_boundary_component name="Pictures and Videos Sending" type="process" />
+      <trust_boundary_component name="Home Progress" type="process" />
+      <trust_boundary_component name="Accessing Childs Medical Record" type="process" />
+      <trust_boundary_component name="Updating the neonatal team" type="process" />
+      <trust_boundary_component name="Care Plan Commenting" type="process" />
+      <trust_boundary_component name="Electronic Patient Records" type="datastore" />
+    </trust_boundary_environment>
+  </trust_boundary>
+</dataflows>
+
+
+
+</cairis_model>
