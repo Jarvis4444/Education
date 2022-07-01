@@ -29,4 +29,4 @@
 
 [Security By Design](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Security-By-Design)
 
-[Final Year Project](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Final-Year-Project)
+[BSc Dissertation](https://github.com/Jarvis4444/University/tree/master/BSc/BSc-Dissertation)
