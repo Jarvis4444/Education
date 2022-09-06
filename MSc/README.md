@@ -14,4 +14,4 @@
 
 [Mobile and Wireless Networks](https://github.com/Jarvis4444/University/tree/master/MSc/Mobile-and-Wireless-Networks)
 
-[MSc Thesis]
+[Individual Masters Project](https://github.com/Jarvis4444/University/tree/master/MSc/Individual-Masters-Project)
