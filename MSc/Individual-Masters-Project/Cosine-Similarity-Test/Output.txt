@@ -1,0 +1,101 @@
+apt2011,apt2013 0.88
+apt 1,penquin turla 0.88
+apt2015,darkhotel 0.89
+darkhotel,pitty tiger 0.89
+apt2016,apt2020 0.89
+apt2018,pitty tiger 0.89
+apt2020,nobelium 0.89
+apt 29,apt2020 0.89
+apt2017,apt2020 0.89
+apt 31,apt2012 0.89
+apt2018,apt2022 0.89
+apt2012,apt2013 0.89
+apt 10,syrian electronic army 0.89
+apt2013,apt2016 0.89
+apt2013,apt2020 0.89
+apt2014,apt2021 0.89
+apt2013,darkhotel 0.89
+apt2016,apt2017 0.89
+apt2017,uac-0056 0.89
+apt2011,apt2016 0.9
+apt 29,apt2018 0.9
+apt2018,nobelium 0.9
+apt2013,penquin turla 0.9
+apt2014,apt2020 0.9
+apt 29,apt2021 0.9
+apt2021,nobelium 0.9
+apt2019,evilnum 0.9
+apt2012,apt2018 0.9
+apt2015,apt2022 0.9
+apt2022,nobelium 0.9
+apt 29,apt2022 0.9
+apt2015,pitty tiger 0.9
+apt2012,apt2016 0.9
+apt2018,darkhotel 0.9
+apt2014,apt2022 0.9
+muddywater,nobelium 0.9
+apt2017,apt2022 0.9
+mustangpanda,strongpity 0.9
+apt 29,muddywater 0.9
+apt2012,pitty tiger 0.91
+apt2015,transparent tribe 0.91
+apt2021,lorec53 0.91
+apt2018,apt2020 0.91
+apt2011,darkhotel 0.91
+apt2016,pitty tiger 0.91
+apt2014,pitty tiger 0.91
+apt2015,apt2017 0.91
+apt2011,apt2018 0.91
+apt2020,apt2022 0.91
+apt2021,uac-0056 0.91
+apt2012,darkhotel 0.91
+apt2013,apt2022 0.91
+apt2011,apt2012 0.92
+apt2021,apt2022 0.92
+apt2015,apt2020 0.92
+apt2011,apt2014 0.92
+apt2017,apt2018 0.92
+apt2015,apt2016 0.92
+apt2012,apt2014 0.92
+apt2015,nobelium 0.92
+apt 29,apt2015 0.92
+apt2016,apt2018 0.92
+apt2011,pitty tiger 0.92
+apt2014,apt2017 0.93
+mustangpanda,ta416 0.93
+apt2013,apt2014 0.93
+apt2017,apt2021 0.93
+apt2012,mirage 0.93
+apt2013,apt2018 0.93
+apt2013,transparent tribe 0.94
+apt2014,darkhotel 0.94
+apt2014,apt2016 0.94
+apt2014,apt2015 0.94
+apt 1,apt2013 0.94
+apt2013,apt2015 0.94
+apt2015,apt2018 0.94
+apt2014,apt2018 0.95
+bluenoroff,lazarus group 0.95
+syrian electronic army,ta2541 0.95
+apt 38,lazarus group 0.97
+lorec53,uac-0056 0.98
+antlion,apt 23 0.99
+apt 38,bluenoroff 0.99
+gamaredon,primitivebear 1.0
+apt 17,winnti 1.0
+apt 29,nobelium 1.0
+ajax security team,flying kitten 1.0
+ta445,unc1151 1.0
+apt 36,earth karkaddan 1.0
+apt-c-23,aridviper 1.0
+apt-c-35,donot team 1.0
+blacktech,earth hundun 1.0
+apt 19,shell crew 1.0
+apt-c-09,dropping elephant 1.0
+apt-c-09,patchwork 1.0
+charmingkitten,phosphorous 1.0
+charmingkitten,tunnelvision 1.0
+dropping elephant,patchwork 1.0
+evilcorp,ta505 1.0
+phosphorous,tunnelvision 1.0
+
