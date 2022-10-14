@@ -7,7 +7,7 @@
 
 [Data and Databases](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Data-and-Databases)
 
-[Applications of Porgramming Principles](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Applications-Of-Programming-Principles)
+[Applications of Programming Principles](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Applications-Of-Programming-Principles)
 
 [Network and Cyber Security](https://github.com/Jarvis4444/Bournemouth-University/tree/master/BSc/Networks-and-Cyber-Security)
 
